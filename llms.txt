@@ -1,0 +1,106 @@
+# Awesome ML Data Pipelines
+
+> A curated list of open-source frameworks, engines, and platforms for building production ML data pipelines — orchestration, processing, versioning, feature storage, and everything in between.
+
+## Workflow Orchestration
+
+- [Apache Airflow](https://airflow.apache.org): The de-facto open-source workflow orchestrator. Python-defined DAGs, thousands of operators, huge ecosystem.
+  - docs: https://airflow.apache.org/docs/
+- [Prefect](https://www.prefect.io): Python-first orchestration with dynamic flows, hybrid cloud execution, and strong observability.
+  - docs: https://docs.prefect.io
+- [Argo Workflows](https://argoproj.github.io/workflows/): Kubernetes-native workflow engine using container-per-step DAGs. Popular as a Kubeflow Pipelines backend.
+  - docs: https://argo-workflows.readthedocs.io/
+- [Dagster](https://dagster.io): Asset-oriented orchestrator with strong typing, data-asset lineage, and dev/prod parity.
+  - docs: https://docs.dagster.io
+- [Kedro](https://kedro.org): Opinionated Python framework for modular, reproducible data-science code. Pluggable runners for Airflow, Dagster, Databricks.
+  - docs: https://docs.kedro.org
+- [Flyte](https://flyte.org): Kubernetes-native workflow engine focused on typed, reproducible ML pipelines. Graduated LF AI & Data project.
+  - docs: https://docs.flyte.org
+
+## ML Pipeline Frameworks
+
+- [MLflow](https://mlflow.org): Open-source platform for experiment tracking, model registry, packaging, and deployment. Supports arbitrary artifact stores.
+  - docs: https://mlflow.org/docs/latest/
+- [Metaflow](https://metaflow.org): Human-friendly ML framework created at Netflix. Native AWS, Kubernetes, and Argo backends.
+  - docs: https://docs.metaflow.org
+- [ZenML](https://zenml.io): MLOps framework standardising production ML pipelines across orchestrators, experiment trackers, and model registries.
+  - docs: https://docs.zenml.io
+- [Kubeflow Pipelines](https://www.kubeflow.org/docs/components/pipelines/): Container-based ML workflow platform running on Kubernetes. Standard on Vertex AI Pipelines.
+  - docs: https://www.kubeflow.org/docs/components/pipelines/overview/
+
+## Data Versioning and Lineage
+
+- [DVC](https://dvc.org): Git-based data and model versioning with pluggable remote storage (including S3-compatible backends).
+  - docs: https://dvc.org/doc
+- [Pachyderm](https://www.pachyderm.com): Data-versioned pipelines on Kubernetes. Auto-incremental reprocessing when upstream data changes.
+  - docs: https://docs.pachyderm.com
+- [lakeFS](https://lakefs.io): Git-like branching/versioning for data lakes over S3-compatible object storage.
+  - docs: https://docs.lakefs.io
+- [OpenLineage](https://openlineage.io): Open standard for collecting lineage metadata from data pipelines. Integrations for Airflow, Spark, dbt, Flink, and more.
+  - docs: https://openlineage.io/docs/
+
+## Feature Stores
+
+- [Feast](https://feast.dev): Open-source feature store with pluggable offline stores (Parquet on S3), online stores (Redis/DynamoDB), and registries.
+  - docs: https://docs.feast.dev
+- [Hopsworks](https://www.hopsworks.ai): End-to-end ML platform with a built-in feature store. Supports time-travel on Hudi/Iceberg offline tables.
+  - docs: https://docs.hopsworks.ai
+- [Tecton](https://www.tecton.ai): Enterprise feature platform from the creators of Michelangelo at Uber. Real-time and batch feature engineering.
+  - docs: https://docs.tecton.ai
+
+## Data Processing Engines
+
+- [Apache Spark](https://spark.apache.org): Unified analytics engine for large-scale data processing. PySpark is the default distributed compute for many ML shops.
+  - docs: https://spark.apache.org/docs/latest/
+- [Ray](https://ray.io): Unified framework for distributed Python. Ray Data, Ray Train, Ray Tune, and Ray Serve cover the ML pipeline end-to-end.
+  - docs: https://docs.ray.io
+- [Polars](https://pola.rs): Rust-backed DataFrame library with a lazy query engine. Often 5–10x faster than pandas on single-node workloads.
+  - docs: https://docs.pola.rs
+- [Dask](https://www.dask.org): Parallel computing for Python. Scales NumPy, pandas, and scikit-learn to clusters with familiar APIs.
+  - docs: https://docs.dask.org
+- [dbt Core](https://www.getdbt.com): SQL-first transformation framework for analytics and ML feature tables. Deep integration with warehouses and lakehouses.
+  - docs: https://docs.getdbt.com
+- [Apache Beam](https://beam.apache.org): Unified programming model for batch and streaming data processing. Runs on Flink, Spark, Dataflow, and more.
+  - docs: https://beam.apache.org/documentation/
+
+## Streaming and Ingest
+
+- [Apache Kafka](https://kafka.apache.org): Industry-standard distributed event-streaming platform. Backbone of streaming ML feature pipelines.
+  - docs: https://kafka.apache.org/documentation/
+- [Apache Flink](https://flink.apache.org): Stateful stream processing at scale. Exactly-once semantics, event-time windowing, and rich SQL support.
+  - docs: https://nightlies.apache.org/flink/flink-docs-stable/
+- [Debezium](https://debezium.io): Distributed CDC platform. Streams database changes into Kafka for downstream ML and analytics.
+  - docs: https://debezium.io/documentation/
+- [Redpanda](https://redpanda.com): Kafka-API-compatible streaming platform written in C++. No JVM, no ZooKeeper, simpler ops.
+  - docs: https://docs.redpanda.com
+- [Apache NiFi](https://nifi.apache.org): Data-flow management with a drag-and-drop UI. Rich processor library for ingesting from heterogeneous sources.
+  - docs: https://nifi.apache.org/documentation/
+
+## Data Labeling
+
+- [Label Studio](https://labelstud.io): Open-source labeling platform supporting text, image, audio, video, time-series, and more.
+  - docs: https://labelstud.io/guide/
+- [CVAT](https://www.cvat.ai): Computer vision annotation tool with strong video and 3D support. Originally from Intel.
+  - docs: https://docs.cvat.ai
+- [Doccano](https://doccano.github.io/doccano/): Open-source text annotation tool for NER, text classification, and sequence-to-sequence tasks.
+- [Argilla](https://argilla.io): Collaboration platform for AI engineers and domain experts. Part of HuggingFace since 2024. Focused on LLM data curation.
+  - docs: https://docs.argilla.io
+
+## Storage Formats and Lakehouses
+
+- [DuckDB](https://duckdb.org): In-process analytical database. Reads Parquet/CSV directly from S3-compatible stores. Excellent for feature exploration.
+  - docs: https://duckdb.org/docs/
+- [Apache Arrow](https://arrow.apache.org): Language-independent columnar memory format. Powers pandas, Polars, DuckDB, and cross-process zero-copy data sharing.
+  - docs: https://arrow.apache.org/docs/
+- [Delta Lake](https://delta.io): ACID-compliant lakehouse format over Parquet. Time travel, schema enforcement, and unified batch/streaming.
+  - docs: https://docs.delta.io
+- [Apache Iceberg](https://iceberg.apache.org): Open table format for huge analytic tables. Partition evolution, hidden partitioning, and engine-agnostic design.
+  - docs: https://iceberg.apache.org/docs/latest/
+- [Apache Hudi](https://hudi.apache.org): Lakehouse format with incremental processing, record-level indexing, and streaming ingestion.
+  - docs: https://hudi.apache.org/docs/overview/
+- [Apache Parquet](https://parquet.apache.org): Columnar storage format optimized for analytics and ML workloads. De-facto standard for feature tables on object storage.
+  - docs: https://parquet.apache.org/docs/
+
+## Templates and Example Projects
+
+- [Awesome MLOps (visenger)](https://github.com/visenger/awesome-mlops): Broader MLOps reference. Useful companion when you need end-to-end deployment + monitoring beyond pipelines.

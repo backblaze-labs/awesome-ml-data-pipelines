@@ -1,0 +1,38 @@
+# Section order below controls the order in README.md.
+# Slugs are referenced from entries.yaml and must be kebab-case.
+
+- slug: workflow-orchestration
+  name: Workflow Orchestration
+  description: General-purpose orchestrators for scheduling and running data and ML jobs.
+
+- slug: ml-pipeline-frameworks
+  name: ML Pipeline Frameworks
+  description: Frameworks purpose-built for reproducible ML training and experiment pipelines.
+
+- slug: data-versioning-and-lineage
+  name: Data Versioning and Lineage
+  description: Git-like versioning, lineage tracking, and reproducibility for data and models.
+
+- slug: feature-stores
+  name: Feature Stores
+  description: Online/offline feature serving for training and inference.
+
+- slug: data-processing-engines
+  name: Data Processing Engines
+  description: Distributed compute for transforming, joining, and aggregating data at scale.
+
+- slug: streaming-and-ingest
+  name: Streaming and Ingest
+  description: Message brokers, CDC, and streaming frameworks that feed ML pipelines.
+
+- slug: data-labeling
+  name: Data Labeling
+  description: Annotation platforms for supervised training and human-in-the-loop workflows.
+
+- slug: storage-formats-and-lakehouses
+  name: Storage Formats and Lakehouses
+  description: Open table formats, columnar formats, and lakehouse engines.
+
+- slug: templates-and-example-projects
+  name: Templates and Example Projects
+  description: Reference implementations, demos, and starter projects.
