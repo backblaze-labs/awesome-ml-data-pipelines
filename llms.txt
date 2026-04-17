@@ -38,6 +38,12 @@
   - docs: https://docs.lakefs.io
 - [OpenLineage](https://openlineage.io): Open standard for collecting lineage metadata from data pipelines. Integrations for Airflow, Spark, dbt, Flink, and more.
   - docs: https://openlineage.io/docs/
+- [Evidently AI](https://www.evidentlyai.com): Open-source framework for evaluating, testing, and monitoring ML and LLM pipelines. 100+ built-in metrics covering drift, quality, and performance.
+  - docs: https://docs.evidentlyai.com
+- [Great Expectations](https://greatexpectations.io): Data quality framework using "Expectations" to define, validate, and document data contracts inside ML pipelines.
+  - docs: https://docs.greatexpectations.io
+- [Project Nessie](https://projectnessie.org): Transactional catalog for data lakes with Git-like branching and tagging semantics. Works with Iceberg tables across Spark, Trino, and Flink.
+  - docs: https://projectnessie.org/nessie-latest/
 
 ## Feature Stores
 
@@ -75,6 +81,8 @@
   - docs: https://docs.redpanda.com
 - [Apache NiFi](https://nifi.apache.org): Data-flow management with a drag-and-drop UI. Rich processor library for ingesting from heterogeneous sources.
   - docs: https://nifi.apache.org/documentation/
+- [Airbyte](https://airbyte.com): ELT data integration platform with 600+ connectors. Pulls from APIs, databases, and files into data lakes and lakehouses for ML pipeline ingestion.
+  - docs: https://docs.airbyte.com
 
 ## Data Labeling
 

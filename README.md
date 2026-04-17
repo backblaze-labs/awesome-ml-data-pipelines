@@ -2,7 +2,7 @@
 
 A curated list of open-source frameworks, engines, and platforms for building production ML data pipelines — orchestration, processing, versioning, feature storage, and everything in between.
 
-Maintained by [Backblaze](https://www.backblaze.com/cloud-storage?utm_source=github&utm_medium=referral&utm_campaign=ai_artifacts&utm_content=awesomelist). Backblaze B2 is the storage cloud for innovators building at the speed of AI. 
+Maintained by [Backblaze](https://www.backblaze.com).
 
 ### Related Lists
 
@@ -55,6 +55,9 @@ Maintained by [Backblaze](https://www.backblaze.com/cloud-storage?utm_source=git
 - **[Pachyderm](https://www.pachyderm.com)** – Data-versioned pipelines on Kubernetes. Auto-incremental reprocessing when upstream data changes. [Docs](https://docs.pachyderm.com)
 - **[lakeFS](https://lakefs.io)** – Git-like branching/versioning for data lakes over S3-compatible object storage. [Docs](https://docs.lakefs.io)
 - **[OpenLineage](https://openlineage.io)** – Open standard for collecting lineage metadata from data pipelines. Integrations for Airflow, Spark, dbt, Flink, and more. [Docs](https://openlineage.io/docs/)
+- **[Evidently AI](https://www.evidentlyai.com)** – Open-source framework for evaluating, testing, and monitoring ML and LLM pipelines. 100+ built-in metrics covering drift, quality, and performance. [Docs](https://docs.evidentlyai.com) | SDK: Python (pip install evidently)
+- **[Great Expectations](https://greatexpectations.io)** – Data quality framework using "Expectations" to define, validate, and document data contracts inside ML pipelines. [Docs](https://docs.greatexpectations.io) | SDK: Python (pip install great-expectations)
+- **[Project Nessie](https://projectnessie.org)** – Transactional catalog for data lakes with Git-like branching and tagging semantics. Works with Iceberg tables across Spark, Trino, and Flink. [Docs](https://projectnessie.org/nessie-latest/)
 
 ## Feature Stores
 
@@ -84,6 +87,7 @@ Maintained by [Backblaze](https://www.backblaze.com/cloud-storage?utm_source=git
 - **[Debezium](https://debezium.io)** – Distributed CDC platform. Streams database changes into Kafka for downstream ML and analytics. [Docs](https://debezium.io/documentation/)
 - **[Redpanda](https://redpanda.com)** – Kafka-API-compatible streaming platform written in C++. No JVM, no ZooKeeper, simpler ops. [Docs](https://docs.redpanda.com)
 - **[Apache NiFi](https://nifi.apache.org)** – Data-flow management with a drag-and-drop UI. Rich processor library for ingesting from heterogeneous sources. [Docs](https://nifi.apache.org/documentation/)
+- **[Airbyte](https://airbyte.com)** – ELT data integration platform with 600+ connectors. Pulls from APIs, databases, and files into data lakes and lakehouses for ML pipeline ingestion. [Docs](https://docs.airbyte.com) | SDK: Python (pip install airbyte)
 
 ## Data Labeling
 
@@ -123,4 +127,4 @@ Released under [CC0 1.0 Universal](LICENSE). You may copy, modify, and redistrib
 
 ## About Backblaze B2
 
-[Backblaze B2 Cloud Storage](https://www.backblaze.com/cloud-storage?utm_source=github&utm_medium=referral&utm_campaign=ai_artifacts&utm_content=awesomelist) is S3-compatible object storage designed for AI and media workloads. This list is maintained as part of our work making B2 a convenient storage layer for AI workflows.
+[Backblaze B2 Cloud Storage](https://www.backblaze.com/cloud-storage) is S3-compatible object storage designed for AI and media workloads. This list is maintained as part of our work making B2 a convenient storage layer for AI workflows.

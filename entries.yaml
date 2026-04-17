@@ -169,6 +169,40 @@
   b2_integration: ""
   last_verified: 2026-04-17
 
+- name: Great Expectations
+  url: https://greatexpectations.io
+  docs_url: https://docs.greatexpectations.io
+  description: Data quality framework using "Expectations" to define, validate, and document data contracts inside ML pipelines.
+  category: data-versioning-and-lineage
+  github: great-expectations/great_expectations
+  license: Apache-2.0
+  sdks:
+    - {language: Python (pip install great-expectations)}
+  b2_integration: ""
+  last_verified: 2026-04-18
+
+- name: Evidently AI
+  url: https://www.evidentlyai.com
+  docs_url: https://docs.evidentlyai.com
+  description: Open-source framework for evaluating, testing, and monitoring ML and LLM pipelines. 100+ built-in metrics covering drift, quality, and performance.
+  category: data-versioning-and-lineage
+  github: evidentlyai/evidently
+  license: Apache-2.0
+  sdks:
+    - {language: Python (pip install evidently)}
+  b2_integration: ""
+  last_verified: 2026-04-18
+
+- name: Project Nessie
+  url: https://projectnessie.org
+  docs_url: https://projectnessie.org/nessie-latest/
+  description: Transactional catalog for data lakes with Git-like branching and tagging semantics. Works with Iceberg tables across Spark, Trino, and Flink.
+  category: data-versioning-and-lineage
+  github: projectnessie/nessie
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-04-18
+
 # ---------------- Feature Stores ----------------
 
 - name: Feast
@@ -321,6 +355,18 @@
   license: Apache-2.0
   b2_integration: ""
   last_verified: 2026-04-17
+
+- name: Airbyte
+  url: https://airbyte.com
+  docs_url: https://docs.airbyte.com
+  description: ELT data integration platform with 600+ connectors. Pulls from APIs, databases, and files into data lakes and lakehouses for ML pipeline ingestion.
+  category: streaming-and-ingest
+  github: airbytehq/airbyte
+  license: MIT
+  sdks:
+    - {language: Python (pip install airbyte)}
+  b2_integration: ""
+  last_verified: 2026-04-18
 
 # ---------------- Data Labeling ----------------
 
