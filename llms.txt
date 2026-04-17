@@ -44,8 +44,12 @@
   - docs: https://docs.evidentlyai.com
 - [Great Expectations](https://greatexpectations.io): Data quality framework using "Expectations" to define, validate, and document data contracts inside ML pipelines.
   - docs: https://docs.greatexpectations.io
+- [Oxen](https://oxen.ai): Git-like version control for ML datasets. Handles millions of files and terabytes of data with fast indexing for images, audio, video, and Parquet.
+  - docs: https://docs.oxen.ai
 - [Project Nessie](https://projectnessie.org): Transactional catalog for data lakes with Git-like branching and tagging semantics. Works with Iceberg tables across Spark, Trino, and Flink.
   - docs: https://projectnessie.org/nessie-latest/
+- [PyDeequ](https://github.com/awslabs/python-deequ): Python API for Deequ, AWS's Spark-based data quality library. Defines unit tests for data, computes metrics, suggests constraints, and persists quality results.
+  - docs: https://pydeequ.readthedocs.io/
 - [TensorFlow Data Validation](https://www.tensorflow.org/tfx/guide/tfdv): Library for computing data statistics, inferring schemas, and detecting anomalies in training and serving data for TFX ML pipelines.
   - docs: https://www.tensorflow.org/tfx/data_validation/get_started
 
@@ -87,6 +91,10 @@
   - docs: https://nifi.apache.org/documentation/
 - [Airbyte](https://airbyte.com): ELT data integration platform with 600+ connectors. Pulls from APIs, databases, and files into data lakes and lakehouses for ML pipeline ingestion.
   - docs: https://docs.airbyte.com
+- [dlt (data load tool)](https://dlthub.com): Lightweight Python library for loading data from APIs, databases, and files into structured datasets. Auto-infers schemas and normalises nested JSON; pluggable destinations include DuckDB, BigQuery, and S3.
+  - docs: https://dlthub.com/docs
+- [Meltano](https://meltano.com): Declarative, code-first ELT engine built on Singer taps and targets. 500+ connectors, git-managed configuration, and native integrations with dbt, Airflow, and Dagster.
+  - docs: https://docs.meltano.com
 - [Quix Streams](https://quix.io): Python library for building real-time data pipelines on Apache Kafka. Streaming DataFrame API with stateful operations, windowing, and exactly-once guarantees.
   - docs: https://quix.io/docs/quix-streams/introduction.html
 - [RisingWave](https://risingwave.com): Distributed SQL streaming database, PostgreSQL-compatible. Continuously ingests events, maintains materialized views, and serves features at sub-100ms freshness.

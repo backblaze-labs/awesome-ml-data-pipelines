@@ -215,6 +215,30 @@
   b2_integration: ""
   last_verified: 2026-04-18
 
+- name: Oxen
+  url: https://oxen.ai
+  docs_url: https://docs.oxen.ai
+  description: Git-like version control for ML datasets. Handles millions of files and terabytes of data with fast indexing for images, audio, video, and Parquet.
+  category: data-versioning-and-lineage
+  github: Oxen-AI/Oxen
+  license: Apache-2.0
+  sdks:
+    - {language: Python (pip install oxenai)}
+  b2_integration: ""
+  last_verified: 2026-04-18
+
+- name: PyDeequ
+  url: https://github.com/awslabs/python-deequ
+  docs_url: https://pydeequ.readthedocs.io/
+  description: Python API for Deequ, AWS's Spark-based data quality library. Defines unit tests for data, computes metrics, suggests constraints, and persists quality results.
+  category: data-versioning-and-lineage
+  github: awslabs/python-deequ
+  license: Apache-2.0
+  sdks:
+    - {language: Python (pip install pydeequ)}
+  b2_integration: ""
+  last_verified: 2026-04-18
+
 - name: TensorFlow Data Validation
   url: https://www.tensorflow.org/tfx/guide/tfdv
   docs_url: https://www.tensorflow.org/tfx/data_validation/get_started
@@ -411,6 +435,30 @@
   license: Apache-2.0
   sdks:
     - {language: Python (pip install quixstreams)}
+  b2_integration: ""
+  last_verified: 2026-04-18
+
+- name: dlt (data load tool)
+  url: https://dlthub.com
+  docs_url: https://dlthub.com/docs
+  description: Lightweight Python library for loading data from APIs, databases, and files into structured datasets. Auto-infers schemas and normalises nested JSON; pluggable destinations include DuckDB, BigQuery, and S3.
+  category: streaming-and-ingest
+  github: dlt-hub/dlt
+  license: Apache-2.0
+  sdks:
+    - {language: Python (pip install dlt)}
+  b2_integration: ""
+  last_verified: 2026-04-18
+
+- name: Meltano
+  url: https://meltano.com
+  docs_url: https://docs.meltano.com
+  description: Declarative, code-first ELT engine built on Singer taps and targets. 500+ connectors, git-managed configuration, and native integrations with dbt, Airflow, and Dagster.
+  category: streaming-and-ingest
+  github: meltano/meltano
+  license: MIT
+  sdks:
+    - {language: Python (pip install meltano)}
   b2_integration: ""
   last_verified: 2026-04-18
 
