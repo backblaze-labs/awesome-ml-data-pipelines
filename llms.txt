@@ -27,6 +27,8 @@
   - docs: https://docs.zenml.io
 - [Kubeflow Pipelines](https://www.kubeflow.org/docs/components/pipelines/): Container-based ML workflow platform running on Kubernetes. Standard on Vertex AI Pipelines.
   - docs: https://www.kubeflow.org/docs/components/pipelines/overview/
+- [Apache Hamilton](https://hamilton.apache.org): Lightweight Python framework for defining modular, testable dataflows as DAGs of regular functions. Runs in scripts, notebooks, Airflow, and FastAPI.
+  - docs: https://hamilton.apache.org
 
 ## Data Versioning and Lineage
 
@@ -44,6 +46,8 @@
   - docs: https://docs.greatexpectations.io
 - [Project Nessie](https://projectnessie.org): Transactional catalog for data lakes with Git-like branching and tagging semantics. Works with Iceberg tables across Spark, Trino, and Flink.
   - docs: https://projectnessie.org/nessie-latest/
+- [TensorFlow Data Validation](https://www.tensorflow.org/tfx/guide/tfdv): Library for computing data statistics, inferring schemas, and detecting anomalies in training and serving data for TFX ML pipelines.
+  - docs: https://www.tensorflow.org/tfx/data_validation/get_started
 
 ## Feature Stores
 
@@ -83,6 +87,10 @@
   - docs: https://nifi.apache.org/documentation/
 - [Airbyte](https://airbyte.com): ELT data integration platform with 600+ connectors. Pulls from APIs, databases, and files into data lakes and lakehouses for ML pipeline ingestion.
   - docs: https://docs.airbyte.com
+- [Quix Streams](https://quix.io): Python library for building real-time data pipelines on Apache Kafka. Streaming DataFrame API with stateful operations, windowing, and exactly-once guarantees.
+  - docs: https://quix.io/docs/quix-streams/introduction.html
+- [RisingWave](https://risingwave.com): Distributed SQL streaming database, PostgreSQL-compatible. Continuously ingests events, maintains materialized views, and serves features at sub-100ms freshness.
+  - docs: https://docs.risingwave.com
 
 ## Data Labeling
 
@@ -93,6 +101,7 @@
 - [Doccano](https://doccano.github.io/doccano/): Open-source text annotation tool for NER, text classification, and sequence-to-sequence tasks.
 - [Argilla](https://argilla.io): Collaboration platform for AI engineers and domain experts. Part of HuggingFace since 2024. Focused on LLM data curation.
   - docs: https://docs.argilla.io
+- [LabelU](https://opendatalab.github.io/labelU/): Multimodal annotation toolbox supporting 2D bounding boxes, segmentation, keypoints, polylines, and AI-assisted labeling for image, audio, and video data.
 
 ## Storage Formats and Lakehouses
 

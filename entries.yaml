@@ -125,6 +125,18 @@
   b2_integration: ""
   last_verified: 2026-04-17
 
+- name: Apache Hamilton
+  url: https://hamilton.apache.org
+  docs_url: https://hamilton.apache.org
+  description: Lightweight Python framework for defining modular, testable dataflows as DAGs of regular functions. Runs in scripts, notebooks, Airflow, and FastAPI.
+  category: ml-pipeline-frameworks
+  github: apache/hamilton
+  license: Apache-2.0
+  sdks:
+    - {language: Python (pip install sf-hamilton)}
+  b2_integration: ""
+  last_verified: 2026-04-18
+
 # ---------------- Data Versioning and Lineage ----------------
 
 - name: DVC
@@ -200,6 +212,18 @@
   category: data-versioning-and-lineage
   github: projectnessie/nessie
   license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-04-18
+
+- name: TensorFlow Data Validation
+  url: https://www.tensorflow.org/tfx/guide/tfdv
+  docs_url: https://www.tensorflow.org/tfx/data_validation/get_started
+  description: Library for computing data statistics, inferring schemas, and detecting anomalies in training and serving data for TFX ML pipelines.
+  category: data-versioning-and-lineage
+  github: tensorflow/data-validation
+  license: Apache-2.0
+  sdks:
+    - {language: Python (pip install tensorflow-data-validation)}
   b2_integration: ""
   last_verified: 2026-04-18
 
@@ -368,6 +392,28 @@
   b2_integration: ""
   last_verified: 2026-04-18
 
+- name: RisingWave
+  url: https://risingwave.com
+  docs_url: https://docs.risingwave.com
+  description: Distributed SQL streaming database, PostgreSQL-compatible. Continuously ingests events, maintains materialized views, and serves features at sub-100ms freshness.
+  category: streaming-and-ingest
+  github: risingwavelabs/risingwave
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-04-18
+
+- name: Quix Streams
+  url: https://quix.io
+  docs_url: https://quix.io/docs/quix-streams/introduction.html
+  description: Python library for building real-time data pipelines on Apache Kafka. Streaming DataFrame API with stateful operations, windowing, and exactly-once guarantees.
+  category: streaming-and-ingest
+  github: quixio/quix-streams
+  license: Apache-2.0
+  sdks:
+    - {language: Python (pip install quixstreams)}
+  b2_integration: ""
+  last_verified: 2026-04-18
+
 # ---------------- Data Labeling ----------------
 
 - name: Label Studio
@@ -412,6 +458,17 @@
   license: MIT
   b2_integration: ""
   last_verified: 2026-04-17
+
+- name: LabelU
+  url: https://opendatalab.github.io/labelU/
+  description: Multimodal annotation toolbox supporting 2D bounding boxes, segmentation, keypoints, polylines, and AI-assisted labeling for image, audio, and video data.
+  category: data-labeling
+  github: opendatalab/labelU
+  license: Apache-2.0
+  sdks:
+    - {language: Python (pip install labelu)}
+  b2_integration: ""
+  last_verified: 2026-04-18
 
 # ---------------- Storage Formats and Lakehouses ----------------
 

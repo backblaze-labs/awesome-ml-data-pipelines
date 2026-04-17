@@ -46,6 +46,7 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[Metaflow](https://metaflow.org)** – Human-friendly ML framework created at Netflix. Native AWS, Kubernetes, and Argo backends. [Docs](https://docs.metaflow.org) | SDK: Python (pip install metaflow)
 - **[ZenML](https://zenml.io)** – MLOps framework standardising production ML pipelines across orchestrators, experiment trackers, and model registries. [Docs](https://docs.zenml.io) | SDK: Python (pip install zenml)
 - **[Kubeflow Pipelines](https://www.kubeflow.org/docs/components/pipelines/)** – Container-based ML workflow platform running on Kubernetes. Standard on Vertex AI Pipelines. [Docs](https://www.kubeflow.org/docs/components/pipelines/overview/)
+- **[Apache Hamilton](https://hamilton.apache.org)** – Lightweight Python framework for defining modular, testable dataflows as DAGs of regular functions. Runs in scripts, notebooks, Airflow, and FastAPI. [Docs](https://hamilton.apache.org) | SDK: Python (pip install sf-hamilton)
 
 ## Data Versioning and Lineage
 
@@ -58,6 +59,7 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[Evidently AI](https://www.evidentlyai.com)** – Open-source framework for evaluating, testing, and monitoring ML and LLM pipelines. 100+ built-in metrics covering drift, quality, and performance. [Docs](https://docs.evidentlyai.com) | SDK: Python (pip install evidently)
 - **[Great Expectations](https://greatexpectations.io)** – Data quality framework using "Expectations" to define, validate, and document data contracts inside ML pipelines. [Docs](https://docs.greatexpectations.io) | SDK: Python (pip install great-expectations)
 - **[Project Nessie](https://projectnessie.org)** – Transactional catalog for data lakes with Git-like branching and tagging semantics. Works with Iceberg tables across Spark, Trino, and Flink. [Docs](https://projectnessie.org/nessie-latest/)
+- **[TensorFlow Data Validation](https://www.tensorflow.org/tfx/guide/tfdv)** – Library for computing data statistics, inferring schemas, and detecting anomalies in training and serving data for TFX ML pipelines. [Docs](https://www.tensorflow.org/tfx/data_validation/get_started) | SDK: Python (pip install tensorflow-data-validation)
 
 ## Feature Stores
 
@@ -88,6 +90,8 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[Redpanda](https://redpanda.com)** – Kafka-API-compatible streaming platform written in C++. No JVM, no ZooKeeper, simpler ops. [Docs](https://docs.redpanda.com)
 - **[Apache NiFi](https://nifi.apache.org)** – Data-flow management with a drag-and-drop UI. Rich processor library for ingesting from heterogeneous sources. [Docs](https://nifi.apache.org/documentation/)
 - **[Airbyte](https://airbyte.com)** – ELT data integration platform with 600+ connectors. Pulls from APIs, databases, and files into data lakes and lakehouses for ML pipeline ingestion. [Docs](https://docs.airbyte.com) | SDK: Python (pip install airbyte)
+- **[Quix Streams](https://quix.io)** – Python library for building real-time data pipelines on Apache Kafka. Streaming DataFrame API with stateful operations, windowing, and exactly-once guarantees. [Docs](https://quix.io/docs/quix-streams/introduction.html) | SDK: Python (pip install quixstreams)
+- **[RisingWave](https://risingwave.com)** – Distributed SQL streaming database, PostgreSQL-compatible. Continuously ingests events, maintains materialized views, and serves features at sub-100ms freshness. [Docs](https://docs.risingwave.com)
 
 ## Data Labeling
 
@@ -97,6 +101,7 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[CVAT](https://www.cvat.ai)** – Computer vision annotation tool with strong video and 3D support. Originally from Intel. [Docs](https://docs.cvat.ai)
 - **[Doccano](https://doccano.github.io/doccano/)** – Open-source text annotation tool for NER, text classification, and sequence-to-sequence tasks.
 - **[Argilla](https://argilla.io)** – Collaboration platform for AI engineers and domain experts. Part of HuggingFace since 2024. Focused on LLM data curation. [Docs](https://docs.argilla.io) | SDK: Python (pip install argilla)
+- **[LabelU](https://opendatalab.github.io/labelU/)** – Multimodal annotation toolbox supporting 2D bounding boxes, segmentation, keypoints, polylines, and AI-assisted labeling for image, audio, and video data. SDK: Python (pip install labelu)
 
 ## Storage Formats and Lakehouses
 
