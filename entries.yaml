@@ -75,6 +75,18 @@
   b2_integration: ""
   last_verified: 2026-04-17
 
+- name: Mage AI
+  url: https://www.mage.ai
+  docs_url: https://docs.mage.ai
+  description: Notebook-style data pipeline builder supporting Python, SQL, and R. Handles batch, streaming, and dbt transformations with built-in scheduling and observability.
+  category: workflow-orchestration
+  github: mage-ai/mage-ai
+  license: Apache-2.0
+  sdks:
+    - {language: Python (pip install mage-ai)}
+  b2_integration: ""
+  last_verified: 2026-04-18
+
 # ---------------- ML Pipeline Frameworks ----------------
 
 - name: ZenML
@@ -248,6 +260,40 @@
   license: Apache-2.0
   sdks:
     - {language: Python (pip install tensorflow-data-validation)}
+  b2_integration: ""
+  last_verified: 2026-04-18
+
+- name: Pandera
+  url: https://www.union.ai/pandera
+  docs_url: https://pandera.readthedocs.io/en/stable/
+  description: Statistical data validation library for pandas, Polars, and PySpark DataFrames. Define schemas with type hints or object API; validates column types, ranges, and custom checks.
+  category: data-versioning-and-lineage
+  github: unionai-oss/pandera
+  license: MIT
+  sdks:
+    - {language: Python (pip install pandera)}
+  b2_integration: ""
+  last_verified: 2026-04-18
+
+- name: Cleanlab
+  url: https://github.com/cleanlab/cleanlab
+  docs_url: https://docs.cleanlab.ai/stable/index.html
+  description: Data-centric AI library that automatically detects label errors, outliers, near-duplicates, and class overlap in ML training datasets using any model's predicted probabilities.
+  category: data-versioning-and-lineage
+  github: cleanlab/cleanlab
+  license: Apache-2.0
+  sdks:
+    - {language: Python (pip install cleanlab)}
+  b2_integration: ""
+  last_verified: 2026-04-18
+
+- name: Marquez
+  url: https://marquezproject.ai
+  docs_url: https://marquezproject.ai/docs/
+  description: LF AI & Data metadata service for collecting and visualizing data lineage across pipelines. Reference implementation of the OpenLineage standard; REST API with a lineage graph UI.
+  category: data-versioning-and-lineage
+  github: MarquezProject/marquez
+  license: Apache-2.0
   b2_integration: ""
   last_verified: 2026-04-18
 

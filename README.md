@@ -37,6 +37,7 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[Dagster](https://dagster.io)** – Asset-oriented orchestrator with strong typing, data-asset lineage, and dev/prod parity. [Docs](https://docs.dagster.io) | SDK: Python (pip install dagster)
 - **[Kedro](https://kedro.org)** – Opinionated Python framework for modular, reproducible data-science code. Pluggable runners for Airflow, Dagster, Databricks. [Docs](https://docs.kedro.org) | SDK: Python (pip install kedro)
 - **[Flyte](https://flyte.org)** – Kubernetes-native workflow engine focused on typed, reproducible ML pipelines. Graduated LF AI & Data project. [Docs](https://docs.flyte.org) | SDK: Python (pip install flytekit)
+- **[Mage AI](https://www.mage.ai)** – Notebook-style data pipeline builder supporting Python, SQL, and R. Handles batch, streaming, and dbt transformations with built-in scheduling and observability. [Docs](https://docs.mage.ai) | SDK: Python (pip install mage-ai)
 
 ## ML Pipeline Frameworks
 
@@ -56,9 +57,12 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[Pachyderm](https://www.pachyderm.com)** – Data-versioned pipelines on Kubernetes. Auto-incremental reprocessing when upstream data changes. [Docs](https://docs.pachyderm.com)
 - **[lakeFS](https://lakefs.io)** – Git-like branching/versioning for data lakes over S3-compatible object storage. [Docs](https://docs.lakefs.io)
 - **[OpenLineage](https://openlineage.io)** – Open standard for collecting lineage metadata from data pipelines. Integrations for Airflow, Spark, dbt, Flink, and more. [Docs](https://openlineage.io/docs/)
+- **[Cleanlab](https://github.com/cleanlab/cleanlab)** – Data-centric AI library that automatically detects label errors, outliers, near-duplicates, and class overlap in ML training datasets using any model's predicted probabilities. [Docs](https://docs.cleanlab.ai/stable/index.html) | SDK: Python (pip install cleanlab)
 - **[Evidently AI](https://www.evidentlyai.com)** – Open-source framework for evaluating, testing, and monitoring ML and LLM pipelines. 100+ built-in metrics covering drift, quality, and performance. [Docs](https://docs.evidentlyai.com) | SDK: Python (pip install evidently)
 - **[Great Expectations](https://greatexpectations.io)** – Data quality framework using "Expectations" to define, validate, and document data contracts inside ML pipelines. [Docs](https://docs.greatexpectations.io) | SDK: Python (pip install great-expectations)
+- **[Marquez](https://marquezproject.ai)** – LF AI & Data metadata service for collecting and visualizing data lineage across pipelines. Reference implementation of the OpenLineage standard; REST API with a lineage graph UI. [Docs](https://marquezproject.ai/docs/)
 - **[Oxen](https://oxen.ai)** – Git-like version control for ML datasets. Handles millions of files and terabytes of data with fast indexing for images, audio, video, and Parquet. [Docs](https://docs.oxen.ai) | SDK: Python (pip install oxenai)
+- **[Pandera](https://www.union.ai/pandera)** – Statistical data validation library for pandas, Polars, and PySpark DataFrames. Define schemas with type hints or object API; validates column types, ranges, and custom checks. [Docs](https://pandera.readthedocs.io/en/stable/) | SDK: Python (pip install pandera)
 - **[Project Nessie](https://projectnessie.org)** – Transactional catalog for data lakes with Git-like branching and tagging semantics. Works with Iceberg tables across Spark, Trino, and Flink. [Docs](https://projectnessie.org/nessie-latest/)
 - **[PyDeequ](https://github.com/awslabs/python-deequ)** – Python API for Deequ, AWS's Spark-based data quality library. Defines unit tests for data, computes metrics, suggests constraints, and persists quality results. [Docs](https://pydeequ.readthedocs.io/) | SDK: Python (pip install pydeequ)
 - **[TensorFlow Data Validation](https://www.tensorflow.org/tfx/guide/tfdv)** – Library for computing data statistics, inferring schemas, and detecting anomalies in training and serving data for TFX ML pipelines. [Docs](https://www.tensorflow.org/tfx/data_validation/get_started) | SDK: Python (pip install tensorflow-data-validation)
