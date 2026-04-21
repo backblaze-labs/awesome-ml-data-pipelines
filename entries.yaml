@@ -149,6 +149,18 @@
   b2_integration: ""
   last_verified: 2026-04-18
 
+- name: MLRun
+  url: https://www.mlrun.org
+  docs_url: https://docs.mlrun.org/en/stable/
+  description: Open-source MLOps orchestration platform. Automates data preparation, model training, deployment, and monitoring with built-in lineage tracking across multi-cloud and on-prem infrastructure.
+  category: ml-pipeline-frameworks
+  github: mlrun/mlrun
+  license: Apache-2.0
+  sdks:
+    - {language: Python (pip install mlrun)}
+  b2_integration: ""
+  last_verified: 2026-04-21
+
 # ---------------- Data Versioning and Lineage ----------------
 
 - name: DVC
@@ -321,6 +333,18 @@
   b2_integration: ""
   last_verified: 2026-04-21
 
+- name: NannyML
+  url: https://www.nannyml.com
+  docs_url: https://nannyml.readthedocs.io/en/stable/
+  description: Post-deployment ML monitoring library. Estimates model performance without ground-truth labels, detects data and concept drift, and traces root causes to specific features.
+  category: data-versioning-and-lineage
+  github: NannyML/nannyml
+  license: Apache-2.0
+  sdks:
+    - {language: Python (pip install nannyml)}
+  b2_integration: ""
+  last_verified: 2026-04-21
+
 # ---------------- Feature Stores ----------------
 
 - name: Feast
@@ -434,6 +458,18 @@
     - {language: Rust}
   b2_integration: ""
   last_verified: 2026-04-17
+
+- name: SQLMesh
+  url: https://github.com/SQLMesh/sqlmesh
+  docs_url: https://sqlmesh.readthedocs.io/en/stable/
+  description: SQL-first data transformation framework backward-compatible with dbt. Adds virtual dev environments, column-level lineage, and automatic incremental backfills.
+  category: data-processing-engines
+  github: SQLMesh/sqlmesh
+  license: Apache-2.0
+  sdks:
+    - {language: Python (pip install sqlmesh)}
+  b2_integration: ""
+  last_verified: 2026-04-21
 
 # ---------------- Streaming and Ingest ----------------
 
@@ -553,6 +589,16 @@
   license: BSL-1.1
   sdks:
     - {language: Python (pip install pathway)}
+  b2_integration: ""
+  last_verified: 2026-04-21
+
+- name: Apache Fluss
+  url: https://fluss.apache.org
+  docs_url: https://fluss.apache.org/docs/
+  description: Streaming storage for real-time analytics and AI. Apache-incubating project that integrates with Apache Flink and Iceberg to create sub-second-fresh streaming lakehouses.
+  category: streaming-and-ingest
+  github: apache/fluss
+  license: Apache-2.0
   b2_integration: ""
   last_verified: 2026-04-21
 

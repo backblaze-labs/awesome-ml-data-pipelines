@@ -31,6 +31,8 @@
   - docs: https://www.kubeflow.org/docs/components/pipelines/overview/
 - [Apache Hamilton](https://hamilton.apache.org): Lightweight Python framework for defining modular, testable dataflows as DAGs of regular functions. Runs in scripts, notebooks, Airflow, and FastAPI.
   - docs: https://hamilton.apache.org
+- [MLRun](https://www.mlrun.org): Open-source MLOps orchestration platform. Automates data preparation, model training, deployment, and monitoring with built-in lineage tracking across multi-cloud and on-prem infrastructure.
+  - docs: https://docs.mlrun.org/en/stable/
 
 ## Data Versioning and Lineage
 
@@ -52,6 +54,8 @@
   - docs: https://docs.greatexpectations.io
 - [Marquez](https://marquezproject.ai): LF AI & Data metadata service for collecting and visualizing data lineage across pipelines. Reference implementation of the OpenLineage standard; REST API with a lineage graph UI.
   - docs: https://marquezproject.ai/docs/
+- [NannyML](https://www.nannyml.com): Post-deployment ML monitoring library. Estimates model performance without ground-truth labels, detects data and concept drift, and traces root causes to specific features.
+  - docs: https://nannyml.readthedocs.io/en/stable/
 - [Oxen](https://oxen.ai): Git-like version control for ML datasets. Handles millions of files and terabytes of data with fast indexing for images, audio, video, and Parquet.
   - docs: https://docs.oxen.ai
 - [Pandera](https://www.union.ai/pandera): Statistical data validation library for pandas, Polars, and PySpark DataFrames. Define schemas with type hints or object API; validates column types, ranges, and custom checks.
@@ -90,6 +94,8 @@
   - docs: https://docs.getdbt.com
 - [Apache Beam](https://beam.apache.org): Unified programming model for batch and streaming data processing. Runs on Flink, Spark, Dataflow, and more.
   - docs: https://beam.apache.org/documentation/
+- [SQLMesh](https://github.com/SQLMesh/sqlmesh): SQL-first data transformation framework backward-compatible with dbt. Adds virtual dev environments, column-level lineage, and automatic incremental backfills.
+  - docs: https://sqlmesh.readthedocs.io/en/stable/
 
 ## Streaming and Ingest
 
@@ -105,6 +111,8 @@
   - docs: https://nifi.apache.org/documentation/
 - [Airbyte](https://airbyte.com): ELT data integration platform with 600+ connectors. Pulls from APIs, databases, and files into data lakes and lakehouses for ML pipeline ingestion.
   - docs: https://docs.airbyte.com
+- [Apache Fluss](https://fluss.apache.org): Streaming storage for real-time analytics and AI. Apache-incubating project that integrates with Apache Flink and Iceberg to create sub-second-fresh streaming lakehouses.
+  - docs: https://fluss.apache.org/docs/
 - [dlt (data load tool)](https://dlthub.com): Lightweight Python library for loading data from APIs, databases, and files into structured datasets. Auto-infers schemas and normalises nested JSON; pluggable destinations include DuckDB, BigQuery, and S3.
   - docs: https://dlthub.com/docs
 - [Meltano](https://meltano.com): Declarative, code-first ELT engine built on Singer taps and targets. 500+ connectors, git-managed configuration, and native integrations with dbt, Airflow, and Dagster.

@@ -48,6 +48,7 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[ZenML](https://zenml.io)** – MLOps framework standardising production ML pipelines across orchestrators, experiment trackers, and model registries. [Docs](https://docs.zenml.io) | SDK: Python (pip install zenml)
 - **[Kubeflow Pipelines](https://www.kubeflow.org/docs/components/pipelines/)** – Container-based ML workflow platform running on Kubernetes. Standard on Vertex AI Pipelines. [Docs](https://www.kubeflow.org/docs/components/pipelines/overview/)
 - **[Apache Hamilton](https://hamilton.apache.org)** – Lightweight Python framework for defining modular, testable dataflows as DAGs of regular functions. Runs in scripts, notebooks, Airflow, and FastAPI. [Docs](https://hamilton.apache.org) | SDK: Python (pip install sf-hamilton)
+- **[MLRun](https://www.mlrun.org)** – Open-source MLOps orchestration platform. Automates data preparation, model training, deployment, and monitoring with built-in lineage tracking across multi-cloud and on-prem infrastructure. [Docs](https://docs.mlrun.org/en/stable/) | SDK: Python (pip install mlrun)
 
 ## Data Versioning and Lineage
 
@@ -62,6 +63,7 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[Evidently AI](https://www.evidentlyai.com)** – Open-source framework for evaluating, testing, and monitoring ML and LLM pipelines. 100+ built-in metrics covering drift, quality, and performance. [Docs](https://docs.evidentlyai.com) | SDK: Python (pip install evidently)
 - **[Great Expectations](https://greatexpectations.io)** – Data quality framework using "Expectations" to define, validate, and document data contracts inside ML pipelines. [Docs](https://docs.greatexpectations.io) | SDK: Python (pip install great-expectations)
 - **[Marquez](https://marquezproject.ai)** – LF AI & Data metadata service for collecting and visualizing data lineage across pipelines. Reference implementation of the OpenLineage standard; REST API with a lineage graph UI. [Docs](https://marquezproject.ai/docs/)
+- **[NannyML](https://www.nannyml.com)** – Post-deployment ML monitoring library. Estimates model performance without ground-truth labels, detects data and concept drift, and traces root causes to specific features. [Docs](https://nannyml.readthedocs.io/en/stable/) | SDK: Python (pip install nannyml)
 - **[Oxen](https://oxen.ai)** – Git-like version control for ML datasets. Handles millions of files and terabytes of data with fast indexing for images, audio, video, and Parquet. [Docs](https://docs.oxen.ai) | SDK: Python (pip install oxenai)
 - **[Pandera](https://www.union.ai/pandera)** – Statistical data validation library for pandas, Polars, and PySpark DataFrames. Define schemas with type hints or object API; validates column types, ranges, and custom checks. [Docs](https://pandera.readthedocs.io/en/stable/) | SDK: Python (pip install pandera)
 - **[Project Nessie](https://projectnessie.org)** – Transactional catalog for data lakes with Git-like branching and tagging semantics. Works with Iceberg tables across Spark, Trino, and Flink. [Docs](https://projectnessie.org/nessie-latest/)
@@ -88,6 +90,7 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[Dask](https://www.dask.org)** – Parallel computing for Python. Scales NumPy, pandas, and scikit-learn to clusters with familiar APIs. [Docs](https://docs.dask.org) | SDK: Python (pip install dask)
 - **[dbt Core](https://www.getdbt.com)** – SQL-first transformation framework for analytics and ML feature tables. Deep integration with warehouses and lakehouses. [Docs](https://docs.getdbt.com) | SDK: Python (pip install dbt-core)
 - **[Apache Beam](https://beam.apache.org)** – Unified programming model for batch and streaming data processing. Runs on Flink, Spark, Dataflow, and more. [Docs](https://beam.apache.org/documentation/)
+- **[SQLMesh](https://github.com/SQLMesh/sqlmesh)** – SQL-first data transformation framework backward-compatible with dbt. Adds virtual dev environments, column-level lineage, and automatic incremental backfills. [Docs](https://sqlmesh.readthedocs.io/en/stable/) | SDK: Python (pip install sqlmesh)
 
 ## Streaming and Ingest
 
@@ -99,6 +102,7 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[Redpanda](https://redpanda.com)** – Kafka-API-compatible streaming platform written in C++. No JVM, no ZooKeeper, simpler ops. [Docs](https://docs.redpanda.com)
 - **[Apache NiFi](https://nifi.apache.org)** – Data-flow management with a drag-and-drop UI. Rich processor library for ingesting from heterogeneous sources. [Docs](https://nifi.apache.org/documentation/)
 - **[Airbyte](https://airbyte.com)** – ELT data integration platform with 600+ connectors. Pulls from APIs, databases, and files into data lakes and lakehouses for ML pipeline ingestion. [Docs](https://docs.airbyte.com) | SDK: Python (pip install airbyte)
+- **[Apache Fluss](https://fluss.apache.org)** – Streaming storage for real-time analytics and AI. Apache-incubating project that integrates with Apache Flink and Iceberg to create sub-second-fresh streaming lakehouses. [Docs](https://fluss.apache.org/docs/)
 - **[dlt (data load tool)](https://dlthub.com)** – Lightweight Python library for loading data from APIs, databases, and files into structured datasets. Auto-infers schemas and normalises nested JSON; pluggable destinations include DuckDB, BigQuery, and S3. [Docs](https://dlthub.com/docs) | SDK: Python (pip install dlt)
 - **[Meltano](https://meltano.com)** – Declarative, code-first ELT engine built on Singer taps and targets. 500+ connectors, git-managed configuration, and native integrations with dbt, Airflow, and Dagster. [Docs](https://docs.meltano.com) | SDK: Python (pip install meltano)
 - **[Pathway](https://pathway.com)** – Python streaming ETL framework backed by a Rust engine. Unified batch/streaming API with stateful windowing, exactly-once guarantees, and connectors for Kafka, PostgreSQL, and S3. [Docs](https://pathway.com/developers/) | SDK: Python (pip install pathway)
