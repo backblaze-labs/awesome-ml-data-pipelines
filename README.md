@@ -58,6 +58,7 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[lakeFS](https://lakefs.io)** – Git-like branching/versioning for data lakes over S3-compatible object storage. [Docs](https://docs.lakefs.io)
 - **[OpenLineage](https://openlineage.io)** – Open standard for collecting lineage metadata from data pipelines. Integrations for Airflow, Spark, dbt, Flink, and more. [Docs](https://openlineage.io/docs/)
 - **[Cleanlab](https://github.com/cleanlab/cleanlab)** – Data-centric AI library that automatically detects label errors, outliers, near-duplicates, and class overlap in ML training datasets using any model's predicted probabilities. [Docs](https://docs.cleanlab.ai/stable/index.html) | SDK: Python (pip install cleanlab)
+- **[Elementary](https://www.elementary-data.com)** – dbt-native data observability CLI. Runs anomaly detection tests and schema change alerts inside dbt, generates a lineage-aware observability report, and pushes alerts to Slack or Teams. [Docs](https://docs.elementary-data.com) | SDK: Python (pip install elementary-data)
 - **[Evidently AI](https://www.evidentlyai.com)** – Open-source framework for evaluating, testing, and monitoring ML and LLM pipelines. 100+ built-in metrics covering drift, quality, and performance. [Docs](https://docs.evidentlyai.com) | SDK: Python (pip install evidently)
 - **[Great Expectations](https://greatexpectations.io)** – Data quality framework using "Expectations" to define, validate, and document data contracts inside ML pipelines. [Docs](https://docs.greatexpectations.io) | SDK: Python (pip install great-expectations)
 - **[Marquez](https://marquezproject.ai)** – LF AI & Data metadata service for collecting and visualizing data lineage across pipelines. Reference implementation of the OpenLineage standard; REST API with a lineage graph UI. [Docs](https://marquezproject.ai/docs/)
@@ -65,6 +66,7 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[Pandera](https://www.union.ai/pandera)** – Statistical data validation library for pandas, Polars, and PySpark DataFrames. Define schemas with type hints or object API; validates column types, ranges, and custom checks. [Docs](https://pandera.readthedocs.io/en/stable/) | SDK: Python (pip install pandera)
 - **[Project Nessie](https://projectnessie.org)** – Transactional catalog for data lakes with Git-like branching and tagging semantics. Works with Iceberg tables across Spark, Trino, and Flink. [Docs](https://projectnessie.org/nessie-latest/)
 - **[PyDeequ](https://github.com/awslabs/python-deequ)** – Python API for Deequ, AWS's Spark-based data quality library. Defines unit tests for data, computes metrics, suggests constraints, and persists quality results. [Docs](https://pydeequ.readthedocs.io/) | SDK: Python (pip install pydeequ)
+- **[Soda Core](https://www.soda.io)** – Data-contract verification engine. Defines quality checks in YAML, validates schema and data values against contracts, and integrates with Airflow, dbt, and Spark pipelines. [Docs](https://docs.soda.io/soda-core/overview-main.html) | SDK: Python (pip install soda-core)
 - **[TensorFlow Data Validation](https://www.tensorflow.org/tfx/guide/tfdv)** – Library for computing data statistics, inferring schemas, and detecting anomalies in training and serving data for TFX ML pipelines. [Docs](https://www.tensorflow.org/tfx/data_validation/get_started) | SDK: Python (pip install tensorflow-data-validation)
 
 ## Feature Stores
@@ -73,6 +75,7 @@ Maintained by [Backblaze](https://www.backblaze.com).
 
 - **[Feast](https://feast.dev)** – Open-source feature store with pluggable offline stores (Parquet on S3), online stores (Redis/DynamoDB), and registries. [Docs](https://docs.feast.dev) | SDK: Python (pip install feast)
 - **[Hopsworks](https://www.hopsworks.ai)** – End-to-end ML platform with a built-in feature store. Supports time-travel on Hudi/Iceberg offline tables. [Docs](https://docs.hopsworks.ai)
+- **[Featureform](https://www.featureform.com)** – Virtual feature store that orchestrates existing data infrastructure. Define, version, and serve ML features via a declarative Python API without replacing current systems. [Docs](https://docs.featureform.com) | SDK: Python (pip install featureform)
 - **[Tecton](https://www.tecton.ai)** – Enterprise feature platform from the creators of Michelangelo at Uber. Real-time and batch feature engineering. [Docs](https://docs.tecton.ai)
 
 ## Data Processing Engines
@@ -98,6 +101,7 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[Airbyte](https://airbyte.com)** – ELT data integration platform with 600+ connectors. Pulls from APIs, databases, and files into data lakes and lakehouses for ML pipeline ingestion. [Docs](https://docs.airbyte.com) | SDK: Python (pip install airbyte)
 - **[dlt (data load tool)](https://dlthub.com)** – Lightweight Python library for loading data from APIs, databases, and files into structured datasets. Auto-infers schemas and normalises nested JSON; pluggable destinations include DuckDB, BigQuery, and S3. [Docs](https://dlthub.com/docs) | SDK: Python (pip install dlt)
 - **[Meltano](https://meltano.com)** – Declarative, code-first ELT engine built on Singer taps and targets. 500+ connectors, git-managed configuration, and native integrations with dbt, Airflow, and Dagster. [Docs](https://docs.meltano.com) | SDK: Python (pip install meltano)
+- **[Pathway](https://pathway.com)** – Python streaming ETL framework backed by a Rust engine. Unified batch/streaming API with stateful windowing, exactly-once guarantees, and connectors for Kafka, PostgreSQL, and S3. [Docs](https://pathway.com/developers/) | SDK: Python (pip install pathway)
 - **[Quix Streams](https://quix.io)** – Python library for building real-time data pipelines on Apache Kafka. Streaming DataFrame API with stateful operations, windowing, and exactly-once guarantees. [Docs](https://quix.io/docs/quix-streams/introduction.html) | SDK: Python (pip install quixstreams)
 - **[RisingWave](https://risingwave.com)** – Distributed SQL streaming database, PostgreSQL-compatible. Continuously ingests events, maintains materialized views, and serves features at sub-100ms freshness. [Docs](https://docs.risingwave.com)
 

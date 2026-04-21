@@ -297,6 +297,30 @@
   b2_integration: ""
   last_verified: 2026-04-18
 
+- name: Elementary
+  url: https://www.elementary-data.com
+  docs_url: https://docs.elementary-data.com
+  description: dbt-native data observability CLI. Runs anomaly detection tests and schema change alerts inside dbt, generates a lineage-aware observability report, and pushes alerts to Slack or Teams.
+  category: data-versioning-and-lineage
+  github: elementary-data/elementary
+  license: Apache-2.0
+  sdks:
+    - {language: Python (pip install elementary-data)}
+  b2_integration: ""
+  last_verified: 2026-04-21
+
+- name: Soda Core
+  url: https://www.soda.io
+  docs_url: https://docs.soda.io/soda-core/overview-main.html
+  description: Data-contract verification engine. Defines quality checks in YAML, validates schema and data values against contracts, and integrates with Airflow, dbt, and Spark pipelines.
+  category: data-versioning-and-lineage
+  github: sodadata/soda-core
+  license: Elastic-2.0
+  sdks:
+    - {language: Python (pip install soda-core)}
+  b2_integration: ""
+  last_verified: 2026-04-21
+
 # ---------------- Feature Stores ----------------
 
 - name: Feast
@@ -310,6 +334,18 @@
     - {language: Python (pip install feast)}
   b2_integration: ""
   last_verified: 2026-04-17
+
+- name: Featureform
+  url: https://www.featureform.com
+  docs_url: https://docs.featureform.com
+  description: Virtual feature store that orchestrates existing data infrastructure. Define, version, and serve ML features via a declarative Python API without replacing current systems.
+  category: feature-stores
+  github: featureform/featureform
+  license: MPL-2.0
+  sdks:
+    - {language: Python (pip install featureform)}
+  b2_integration: ""
+  last_verified: 2026-04-21
 
 - name: Hopsworks
   url: https://www.hopsworks.ai
@@ -507,6 +543,18 @@
     - {language: Python (pip install meltano)}
   b2_integration: ""
   last_verified: 2026-04-18
+
+- name: Pathway
+  url: https://pathway.com
+  docs_url: https://pathway.com/developers/
+  description: Python streaming ETL framework backed by a Rust engine. Unified batch/streaming API with stateful windowing, exactly-once guarantees, and connectors for Kafka, PostgreSQL, and S3.
+  category: streaming-and-ingest
+  github: pathwaycom/pathway
+  license: BSL-1.1
+  sdks:
+    - {language: Python (pip install pathway)}
+  b2_integration: ""
+  last_verified: 2026-04-21
 
 # ---------------- Data Labeling ----------------
 

@@ -44,6 +44,8 @@
   - docs: https://openlineage.io/docs/
 - [Cleanlab](https://github.com/cleanlab/cleanlab): Data-centric AI library that automatically detects label errors, outliers, near-duplicates, and class overlap in ML training datasets using any model's predicted probabilities.
   - docs: https://docs.cleanlab.ai/stable/index.html
+- [Elementary](https://www.elementary-data.com): dbt-native data observability CLI. Runs anomaly detection tests and schema change alerts inside dbt, generates a lineage-aware observability report, and pushes alerts to Slack or Teams.
+  - docs: https://docs.elementary-data.com
 - [Evidently AI](https://www.evidentlyai.com): Open-source framework for evaluating, testing, and monitoring ML and LLM pipelines. 100+ built-in metrics covering drift, quality, and performance.
   - docs: https://docs.evidentlyai.com
 - [Great Expectations](https://greatexpectations.io): Data quality framework using "Expectations" to define, validate, and document data contracts inside ML pipelines.
@@ -58,6 +60,8 @@
   - docs: https://projectnessie.org/nessie-latest/
 - [PyDeequ](https://github.com/awslabs/python-deequ): Python API for Deequ, AWS's Spark-based data quality library. Defines unit tests for data, computes metrics, suggests constraints, and persists quality results.
   - docs: https://pydeequ.readthedocs.io/
+- [Soda Core](https://www.soda.io): Data-contract verification engine. Defines quality checks in YAML, validates schema and data values against contracts, and integrates with Airflow, dbt, and Spark pipelines.
+  - docs: https://docs.soda.io/soda-core/overview-main.html
 - [TensorFlow Data Validation](https://www.tensorflow.org/tfx/guide/tfdv): Library for computing data statistics, inferring schemas, and detecting anomalies in training and serving data for TFX ML pipelines.
   - docs: https://www.tensorflow.org/tfx/data_validation/get_started
 
@@ -67,6 +71,8 @@
   - docs: https://docs.feast.dev
 - [Hopsworks](https://www.hopsworks.ai): End-to-end ML platform with a built-in feature store. Supports time-travel on Hudi/Iceberg offline tables.
   - docs: https://docs.hopsworks.ai
+- [Featureform](https://www.featureform.com): Virtual feature store that orchestrates existing data infrastructure. Define, version, and serve ML features via a declarative Python API without replacing current systems.
+  - docs: https://docs.featureform.com
 - [Tecton](https://www.tecton.ai): Enterprise feature platform from the creators of Michelangelo at Uber. Real-time and batch feature engineering.
   - docs: https://docs.tecton.ai
 
@@ -103,6 +109,8 @@
   - docs: https://dlthub.com/docs
 - [Meltano](https://meltano.com): Declarative, code-first ELT engine built on Singer taps and targets. 500+ connectors, git-managed configuration, and native integrations with dbt, Airflow, and Dagster.
   - docs: https://docs.meltano.com
+- [Pathway](https://pathway.com): Python streaming ETL framework backed by a Rust engine. Unified batch/streaming API with stateful windowing, exactly-once guarantees, and connectors for Kafka, PostgreSQL, and S3.
+  - docs: https://pathway.com/developers/
 - [Quix Streams](https://quix.io): Python library for building real-time data pipelines on Apache Kafka. Streaming DataFrame API with stateful operations, windowing, and exactly-once guarantees.
   - docs: https://quix.io/docs/quix-streams/introduction.html
 - [RisingWave](https://risingwave.com): Distributed SQL streaming database, PostgreSQL-compatible. Continuously ingests events, maintains materialized views, and serves features at sub-100ms freshness.
