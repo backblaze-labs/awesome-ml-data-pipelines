@@ -37,6 +37,7 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[Dagster](https://dagster.io)** – Asset-oriented orchestrator with strong typing, data-asset lineage, and dev/prod parity. [Docs](https://docs.dagster.io) | SDK: Python (pip install dagster)
 - **[Kedro](https://kedro.org)** – Opinionated Python framework for modular, reproducible data-science code. Pluggable runners for Airflow, Dagster, Databricks. [Docs](https://docs.kedro.org) | SDK: Python (pip install kedro)
 - **[Flyte](https://flyte.org)** – Kubernetes-native workflow engine focused on typed, reproducible ML pipelines. Graduated LF AI & Data project. [Docs](https://docs.flyte.org) | SDK: Python (pip install flytekit)
+- **[Kestra](https://kestra.io)** – Declarative, event-driven workflow orchestrator. Workflows defined in YAML, 1300+ plugins, supports Python/Bash/Go/Node.js tasks. Built for data, AI, and infrastructure pipelines at scale. [Docs](https://kestra.io/docs)
 - **[Mage AI](https://www.mage.ai)** – Notebook-style data pipeline builder supporting Python, SQL, and R. Handles batch, streaming, and dbt transformations with built-in scheduling and observability. [Docs](https://docs.mage.ai) | SDK: Python (pip install mage-ai)
 
 ## ML Pipeline Frameworks
@@ -59,11 +60,13 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[lakeFS](https://lakefs.io)** – Git-like branching/versioning for data lakes over S3-compatible object storage. [Docs](https://docs.lakefs.io)
 - **[OpenLineage](https://openlineage.io)** – Open standard for collecting lineage metadata from data pipelines. Integrations for Airflow, Spark, dbt, Flink, and more. [Docs](https://openlineage.io/docs/)
 - **[Cleanlab](https://github.com/cleanlab/cleanlab)** – Data-centric AI library that automatically detects label errors, outliers, near-duplicates, and class overlap in ML training datasets using any model's predicted probabilities. [Docs](https://docs.cleanlab.ai/stable/index.html) | SDK: Python (pip install cleanlab)
+- **[DataChain](https://datachain.ai)** – Python library for versioning, querying, and transforming unstructured ML datasets (images, video, audio, docs) over S3-compatible object storage. Every file and transformation is automatically lineage-tracked. [Docs](https://docs.datachain.ai) | SDK: Python (pip install datachain)
 - **[Elementary](https://www.elementary-data.com)** – dbt-native data observability CLI. Runs anomaly detection tests and schema change alerts inside dbt, generates a lineage-aware observability report, and pushes alerts to Slack or Teams. [Docs](https://docs.elementary-data.com) | SDK: Python (pip install elementary-data)
 - **[Evidently AI](https://www.evidentlyai.com)** – Open-source framework for evaluating, testing, and monitoring ML and LLM pipelines. 100+ built-in metrics covering drift, quality, and performance. [Docs](https://docs.evidentlyai.com) | SDK: Python (pip install evidently)
 - **[Great Expectations](https://greatexpectations.io)** – Data quality framework using "Expectations" to define, validate, and document data contracts inside ML pipelines. [Docs](https://docs.greatexpectations.io) | SDK: Python (pip install great-expectations)
 - **[Marquez](https://marquezproject.ai)** – LF AI & Data metadata service for collecting and visualizing data lineage across pipelines. Reference implementation of the OpenLineage standard; REST API with a lineage graph UI. [Docs](https://marquezproject.ai/docs/)
 - **[NannyML](https://www.nannyml.com)** – Post-deployment ML monitoring library. Estimates model performance without ground-truth labels, detects data and concept drift, and traces root causes to specific features. [Docs](https://nannyml.readthedocs.io/en/stable/) | SDK: Python (pip install nannyml)
+- **[OpenMetadata](https://open-metadata.org)** – Unified metadata platform for data discovery, lineage, and observability. 120+ connectors for Airflow, Spark, dbt, MLflow. Column-level lineage, data quality, and governance in one self-hostable service. [Docs](https://docs.open-metadata.org)
 - **[Oxen](https://oxen.ai)** – Git-like version control for ML datasets. Handles millions of files and terabytes of data with fast indexing for images, audio, video, and Parquet. [Docs](https://docs.oxen.ai) | SDK: Python (pip install oxenai)
 - **[Pandera](https://www.union.ai/pandera)** – Statistical data validation library for pandas, Polars, and PySpark DataFrames. Define schemas with type hints or object API; validates column types, ranges, and custom checks. [Docs](https://pandera.readthedocs.io/en/stable/) | SDK: Python (pip install pandera)
 - **[Project Nessie](https://projectnessie.org)** – Transactional catalog for data lakes with Git-like branching and tagging semantics. Works with Iceberg tables across Spark, Trino, and Flink. [Docs](https://projectnessie.org/nessie-latest/)
@@ -118,6 +121,7 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[Doccano](https://doccano.github.io/doccano/)** – Open-source text annotation tool for NER, text classification, and sequence-to-sequence tasks.
 - **[Argilla](https://argilla.io)** – Collaboration platform for AI engineers and domain experts. Part of HuggingFace since 2024. Focused on LLM data curation. [Docs](https://docs.argilla.io) | SDK: Python (pip install argilla)
 - **[LabelU](https://opendatalab.github.io/labelU/)** – Multimodal annotation toolbox supporting 2D bounding boxes, segmentation, keypoints, polylines, and AI-assisted labeling for image, audio, and video data. SDK: Python (pip install labelu)
+- **[X-AnyLabeling](https://github.com/CVHub520/X-AnyLabeling)** – AI-assisted annotation tool integrating SAM, YOLO, and other vision models. Supports bounding boxes, polygons, segmentation, keypoints, and video annotation with GPU/TensorRT acceleration. [Docs](https://github.com/CVHub520/X-AnyLabeling/blob/main/docs/en/get_started.md)
 
 ## Storage Formats and Lakehouses
 

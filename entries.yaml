@@ -87,6 +87,16 @@
   b2_integration: ""
   last_verified: 2026-04-18
 
+- name: Kestra
+  url: https://kestra.io
+  docs_url: https://kestra.io/docs
+  description: Declarative, event-driven workflow orchestrator. Workflows defined in YAML, 1300+ plugins, supports Python/Bash/Go/Node.js tasks. Built for data, AI, and infrastructure pipelines at scale.
+  category: workflow-orchestration
+  github: kestra-io/kestra
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-05-04
+
 # ---------------- ML Pipeline Frameworks ----------------
 
 - name: ZenML
@@ -344,6 +354,28 @@
     - {language: Python (pip install nannyml)}
   b2_integration: ""
   last_verified: 2026-04-21
+
+- name: OpenMetadata
+  url: https://open-metadata.org
+  docs_url: https://docs.open-metadata.org
+  description: Unified metadata platform for data discovery, lineage, and observability. 120+ connectors for Airflow, Spark, dbt, MLflow. Column-level lineage, data quality, and governance in one self-hostable service.
+  category: data-versioning-and-lineage
+  github: open-metadata/OpenMetadata
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-05-04
+
+- name: DataChain
+  url: https://datachain.ai
+  docs_url: https://docs.datachain.ai
+  description: Python library for versioning, querying, and transforming unstructured ML datasets (images, video, audio, docs) over S3-compatible object storage. Every file and transformation is automatically lineage-tracked.
+  category: data-versioning-and-lineage
+  github: datachain-ai/datachain
+  license: Apache-2.0
+  sdks:
+    - {language: Python (pip install datachain)}
+  b2_integration: ""
+  last_verified: 2026-05-04
 
 # ---------------- Feature Stores ----------------
 
@@ -657,6 +689,16 @@
     - {language: Python (pip install labelu)}
   b2_integration: ""
   last_verified: 2026-04-18
+
+- name: X-AnyLabeling
+  url: https://github.com/CVHub520/X-AnyLabeling
+  docs_url: https://github.com/CVHub520/X-AnyLabeling/blob/main/docs/en/get_started.md
+  description: AI-assisted annotation tool integrating SAM, YOLO, and other vision models. Supports bounding boxes, polygons, segmentation, keypoints, and video annotation with GPU/TensorRT acceleration.
+  category: data-labeling
+  github: CVHub520/X-AnyLabeling
+  license: GPL-3.0
+  b2_integration: ""
+  last_verified: 2026-05-04
 
 # ---------------- Storage Formats and Lakehouses ----------------
 

@@ -16,6 +16,8 @@
   - docs: https://docs.kedro.org
 - [Flyte](https://flyte.org): Kubernetes-native workflow engine focused on typed, reproducible ML pipelines. Graduated LF AI & Data project.
   - docs: https://docs.flyte.org
+- [Kestra](https://kestra.io): Declarative, event-driven workflow orchestrator. Workflows defined in YAML, 1300+ plugins, supports Python/Bash/Go/Node.js tasks. Built for data, AI, and infrastructure pipelines at scale.
+  - docs: https://kestra.io/docs
 - [Mage AI](https://www.mage.ai): Notebook-style data pipeline builder supporting Python, SQL, and R. Handles batch, streaming, and dbt transformations with built-in scheduling and observability.
   - docs: https://docs.mage.ai
 
@@ -46,6 +48,8 @@
   - docs: https://openlineage.io/docs/
 - [Cleanlab](https://github.com/cleanlab/cleanlab): Data-centric AI library that automatically detects label errors, outliers, near-duplicates, and class overlap in ML training datasets using any model's predicted probabilities.
   - docs: https://docs.cleanlab.ai/stable/index.html
+- [DataChain](https://datachain.ai): Python library for versioning, querying, and transforming unstructured ML datasets (images, video, audio, docs) over S3-compatible object storage. Every file and transformation is automatically lineage-tracked.
+  - docs: https://docs.datachain.ai
 - [Elementary](https://www.elementary-data.com): dbt-native data observability CLI. Runs anomaly detection tests and schema change alerts inside dbt, generates a lineage-aware observability report, and pushes alerts to Slack or Teams.
   - docs: https://docs.elementary-data.com
 - [Evidently AI](https://www.evidentlyai.com): Open-source framework for evaluating, testing, and monitoring ML and LLM pipelines. 100+ built-in metrics covering drift, quality, and performance.
@@ -56,6 +60,8 @@
   - docs: https://marquezproject.ai/docs/
 - [NannyML](https://www.nannyml.com): Post-deployment ML monitoring library. Estimates model performance without ground-truth labels, detects data and concept drift, and traces root causes to specific features.
   - docs: https://nannyml.readthedocs.io/en/stable/
+- [OpenMetadata](https://open-metadata.org): Unified metadata platform for data discovery, lineage, and observability. 120+ connectors for Airflow, Spark, dbt, MLflow. Column-level lineage, data quality, and governance in one self-hostable service.
+  - docs: https://docs.open-metadata.org
 - [Oxen](https://oxen.ai): Git-like version control for ML datasets. Handles millions of files and terabytes of data with fast indexing for images, audio, video, and Parquet.
   - docs: https://docs.oxen.ai
 - [Pandera](https://www.union.ai/pandera): Statistical data validation library for pandas, Polars, and PySpark DataFrames. Define schemas with type hints or object API; validates column types, ranges, and custom checks.
@@ -134,6 +140,8 @@
 - [Argilla](https://argilla.io): Collaboration platform for AI engineers and domain experts. Part of HuggingFace since 2024. Focused on LLM data curation.
   - docs: https://docs.argilla.io
 - [LabelU](https://opendatalab.github.io/labelU/): Multimodal annotation toolbox supporting 2D bounding boxes, segmentation, keypoints, polylines, and AI-assisted labeling for image, audio, and video data.
+- [X-AnyLabeling](https://github.com/CVHub520/X-AnyLabeling): AI-assisted annotation tool integrating SAM, YOLO, and other vision models. Supports bounding boxes, polygons, segmentation, keypoints, and video annotation with GPU/TensorRT acceleration.
+  - docs: https://github.com/CVHub520/X-AnyLabeling/blob/main/docs/en/get_started.md
 
 ## Storage Formats and Lakehouses
 
