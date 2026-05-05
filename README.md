@@ -38,6 +38,7 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[Kedro](https://kedro.org)** – Opinionated Python framework for modular, reproducible data-science code. Pluggable runners for Airflow, Dagster, Databricks. [Docs](https://docs.kedro.org) | SDK: Python (pip install kedro)
 - **[Flyte](https://flyte.org)** – Kubernetes-native workflow engine focused on typed, reproducible ML pipelines. Graduated LF AI & Data project. [Docs](https://docs.flyte.org) | SDK: Python (pip install flytekit)
 - **[Kestra](https://kestra.io)** – Declarative, event-driven workflow orchestrator. Workflows defined in YAML, 1300+ plugins, supports Python/Bash/Go/Node.js tasks. Built for data, AI, and infrastructure pipelines at scale. [Docs](https://kestra.io/docs)
+- **[Maestro](https://github.com/Netflix/maestro)** – Netflix's horizontally scalable workflow-as-a-service orchestrator for data and ML pipelines. Supports acyclic and cyclic workflows, foreach loops, subworkflows, and millions of daily job executions.
 - **[Mage AI](https://www.mage.ai)** – Notebook-style data pipeline builder supporting Python, SQL, and R. Handles batch, streaming, and dbt transformations with built-in scheduling and observability. [Docs](https://docs.mage.ai) | SDK: Python (pip install mage-ai)
 
 ## ML Pipeline Frameworks
@@ -93,6 +94,7 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[Dask](https://www.dask.org)** – Parallel computing for Python. Scales NumPy, pandas, and scikit-learn to clusters with familiar APIs. [Docs](https://docs.dask.org) | SDK: Python (pip install dask)
 - **[dbt Core](https://www.getdbt.com)** – SQL-first transformation framework for analytics and ML feature tables. Deep integration with warehouses and lakehouses. [Docs](https://docs.getdbt.com) | SDK: Python (pip install dbt-core)
 - **[Apache Beam](https://beam.apache.org)** – Unified programming model for batch and streaming data processing. Runs on Flink, Spark, Dataflow, and more. [Docs](https://beam.apache.org/documentation/)
+- **[Apache DataFusion](https://datafusion.apache.org)** – Extensible query engine written in Rust using Apache Arrow in-memory format. Embeddable, multi-threaded, vectorized execution with SQL and DataFrame APIs; Python bindings via datafusion-python. [Docs](https://datafusion.apache.org/user-guide/introduction.html) | SDK: Python (pip install datafusion), Rust
 - **[SQLMesh](https://github.com/SQLMesh/sqlmesh)** – SQL-first data transformation framework backward-compatible with dbt. Adds virtual dev environments, column-level lineage, and automatic incremental backfills. [Docs](https://sqlmesh.readthedocs.io/en/stable/) | SDK: Python (pip install sqlmesh)
 
 ## Streaming and Ingest
@@ -111,6 +113,7 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[Pathway](https://pathway.com)** – Python streaming ETL framework backed by a Rust engine. Unified batch/streaming API with stateful windowing, exactly-once guarantees, and connectors for Kafka, PostgreSQL, and S3. [Docs](https://pathway.com/developers/) | SDK: Python (pip install pathway)
 - **[Quix Streams](https://quix.io)** – Python library for building real-time data pipelines on Apache Kafka. Streaming DataFrame API with stateful operations, windowing, and exactly-once guarantees. [Docs](https://quix.io/docs/quix-streams/introduction.html) | SDK: Python (pip install quixstreams)
 - **[RisingWave](https://risingwave.com)** – Distributed SQL streaming database, PostgreSQL-compatible. Continuously ingests events, maintains materialized views, and serves features at sub-100ms freshness. [Docs](https://docs.risingwave.com)
+- **[River](https://riverml.xyz)** – Python library for online machine learning on streaming data. Learns incrementally from one sample at a time without storing past data; supports classification, regression, clustering, drift detection, and anomaly detection. [Docs](https://riverml.xyz/latest/) | SDK: Python (pip install river)
 
 ## Data Labeling
 
@@ -133,6 +136,7 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[Apache Iceberg](https://iceberg.apache.org)** – Open table format for huge analytic tables. Partition evolution, hidden partitioning, and engine-agnostic design. [Docs](https://iceberg.apache.org/docs/latest/)
 - **[Apache Hudi](https://hudi.apache.org)** – Lakehouse format with incremental processing, record-level indexing, and streaming ingestion. [Docs](https://hudi.apache.org/docs/overview/)
 - **[Apache Parquet](https://parquet.apache.org)** – Columnar storage format optimized for analytics and ML workloads. De-facto standard for feature tables on object storage. [Docs](https://parquet.apache.org/docs/)
+- **[Apache Polaris](https://polaris.apache.org)** – Open-source REST catalog for Apache Iceberg implementing the Iceberg REST API spec. Enables multi-engine interoperability across Spark, Flink, Trino, and Doris with fine-grained access control. [Docs](https://polaris.apache.org/in-dev/unreleased/)
 
 ## Templates and Example Projects
 

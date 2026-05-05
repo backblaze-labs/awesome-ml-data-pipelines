@@ -18,6 +18,7 @@
   - docs: https://docs.flyte.org
 - [Kestra](https://kestra.io): Declarative, event-driven workflow orchestrator. Workflows defined in YAML, 1300+ plugins, supports Python/Bash/Go/Node.js tasks. Built for data, AI, and infrastructure pipelines at scale.
   - docs: https://kestra.io/docs
+- [Maestro](https://github.com/Netflix/maestro): Netflix's horizontally scalable workflow-as-a-service orchestrator for data and ML pipelines. Supports acyclic and cyclic workflows, foreach loops, subworkflows, and millions of daily job executions.
 - [Mage AI](https://www.mage.ai): Notebook-style data pipeline builder supporting Python, SQL, and R. Handles batch, streaming, and dbt transformations with built-in scheduling and observability.
   - docs: https://docs.mage.ai
 
@@ -100,6 +101,8 @@
   - docs: https://docs.getdbt.com
 - [Apache Beam](https://beam.apache.org): Unified programming model for batch and streaming data processing. Runs on Flink, Spark, Dataflow, and more.
   - docs: https://beam.apache.org/documentation/
+- [Apache DataFusion](https://datafusion.apache.org): Extensible query engine written in Rust using Apache Arrow in-memory format. Embeddable, multi-threaded, vectorized execution with SQL and DataFrame APIs; Python bindings via datafusion-python.
+  - docs: https://datafusion.apache.org/user-guide/introduction.html
 - [SQLMesh](https://github.com/SQLMesh/sqlmesh): SQL-first data transformation framework backward-compatible with dbt. Adds virtual dev environments, column-level lineage, and automatic incremental backfills.
   - docs: https://sqlmesh.readthedocs.io/en/stable/
 
@@ -129,6 +132,8 @@
   - docs: https://quix.io/docs/quix-streams/introduction.html
 - [RisingWave](https://risingwave.com): Distributed SQL streaming database, PostgreSQL-compatible. Continuously ingests events, maintains materialized views, and serves features at sub-100ms freshness.
   - docs: https://docs.risingwave.com
+- [River](https://riverml.xyz): Python library for online machine learning on streaming data. Learns incrementally from one sample at a time without storing past data; supports classification, regression, clustering, drift detection, and anomaly detection.
+  - docs: https://riverml.xyz/latest/
 
 ## Data Labeling
 
@@ -157,6 +162,8 @@
   - docs: https://hudi.apache.org/docs/overview/
 - [Apache Parquet](https://parquet.apache.org): Columnar storage format optimized for analytics and ML workloads. De-facto standard for feature tables on object storage.
   - docs: https://parquet.apache.org/docs/
+- [Apache Polaris](https://polaris.apache.org): Open-source REST catalog for Apache Iceberg implementing the Iceberg REST API spec. Enables multi-engine interoperability across Spark, Flink, Trino, and Doris with fine-grained access control.
+  - docs: https://polaris.apache.org/in-dev/unreleased/
 
 ## Templates and Example Projects
 

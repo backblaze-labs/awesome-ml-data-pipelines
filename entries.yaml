@@ -97,6 +97,15 @@
   b2_integration: ""
   last_verified: 2026-05-04
 
+- name: Maestro
+  url: https://github.com/Netflix/maestro
+  description: Netflix's horizontally scalable workflow-as-a-service orchestrator for data and ML pipelines. Supports acyclic and cyclic workflows, foreach loops, subworkflows, and millions of daily job executions.
+  category: workflow-orchestration
+  github: Netflix/maestro
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-05-04
+
 # ---------------- ML Pipeline Frameworks ----------------
 
 - name: ZenML
@@ -503,6 +512,19 @@
   b2_integration: ""
   last_verified: 2026-04-21
 
+- name: Apache DataFusion
+  url: https://datafusion.apache.org
+  docs_url: https://datafusion.apache.org/user-guide/introduction.html
+  description: Extensible query engine written in Rust using Apache Arrow in-memory format. Embeddable, multi-threaded, vectorized execution with SQL and DataFrame APIs; Python bindings via datafusion-python.
+  category: data-processing-engines
+  github: apache/datafusion
+  license: Apache-2.0
+  sdks:
+    - {language: Python (pip install datafusion)}
+    - {language: Rust}
+  b2_integration: ""
+  last_verified: 2026-05-04
+
 # ---------------- Streaming and Ingest ----------------
 
 - name: Apache Kafka
@@ -634,6 +656,18 @@
   b2_integration: ""
   last_verified: 2026-04-21
 
+- name: River
+  url: https://riverml.xyz
+  docs_url: https://riverml.xyz/latest/
+  description: Python library for online machine learning on streaming data. Learns incrementally from one sample at a time without storing past data; supports classification, regression, clustering, drift detection, and anomaly detection.
+  category: streaming-and-ingest
+  github: online-ml/river
+  license: BSD-3-Clause
+  sdks:
+    - {language: Python (pip install river)}
+  b2_integration: ""
+  last_verified: 2026-05-04
+
 # ---------------- Data Labeling ----------------
 
 - name: Label Studio
@@ -761,6 +795,16 @@
   license: MIT
   b2_integration: ""
   last_verified: 2026-04-17
+
+- name: Apache Polaris
+  url: https://polaris.apache.org
+  docs_url: https://polaris.apache.org/in-dev/unreleased/
+  description: Open-source REST catalog for Apache Iceberg implementing the Iceberg REST API spec. Enables multi-engine interoperability across Spark, Flink, Trino, and Doris with fine-grained access control.
+  category: storage-formats-and-lakehouses
+  github: apache/polaris
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-05-04
 
 # ---------------- Templates and Example Projects ----------------
 
