@@ -73,6 +73,7 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[Project Nessie](https://projectnessie.org)** – Transactional catalog for data lakes with Git-like branching and tagging semantics. Works with Iceberg tables across Spark, Trino, and Flink. [Docs](https://projectnessie.org/nessie-latest/)
 - **[PyDeequ](https://github.com/awslabs/python-deequ)** – Python API for Deequ, AWS's Spark-based data quality library. Defines unit tests for data, computes metrics, suggests constraints, and persists quality results. [Docs](https://pydeequ.readthedocs.io/) | SDK: Python (pip install pydeequ)
 - **[Soda Core](https://www.soda.io)** – Data-contract verification engine. Defines quality checks in YAML, validates schema and data values against contracts, and integrates with Airflow, dbt, and Spark pipelines. [Docs](https://docs.soda.io/soda-core/overview-main.html) | SDK: Python (pip install soda-core)
+- **[Splink](https://moj-analytical-services.github.io/splink/)** – Probabilistic record linkage and entity resolution library. Deduplicates and links datasets without unique identifiers using unsupervised learning; runs on DuckDB, Spark, and AWS Athena backends. [Docs](https://moj-analytical-services.github.io/splink/) | SDK: Python (pip install splink)
 - **[TensorFlow Data Validation](https://www.tensorflow.org/tfx/guide/tfdv)** – Library for computing data statistics, inferring schemas, and detecting anomalies in training and serving data for TFX ML pipelines. [Docs](https://www.tensorflow.org/tfx/data_validation/get_started) | SDK: Python (pip install tensorflow-data-validation)
 
 ## Feature Stores
@@ -95,6 +96,7 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[dbt Core](https://www.getdbt.com)** – SQL-first transformation framework for analytics and ML feature tables. Deep integration with warehouses and lakehouses. [Docs](https://docs.getdbt.com) | SDK: Python (pip install dbt-core)
 - **[Apache Beam](https://beam.apache.org)** – Unified programming model for batch and streaming data processing. Runs on Flink, Spark, Dataflow, and more. [Docs](https://beam.apache.org/documentation/)
 - **[Apache DataFusion](https://datafusion.apache.org)** – Extensible query engine written in Rust using Apache Arrow in-memory format. Embeddable, multi-threaded, vectorized execution with SQL and DataFrame APIs; Python bindings via datafusion-python. [Docs](https://datafusion.apache.org/user-guide/introduction.html) | SDK: Python (pip install datafusion), Rust
+- **[Ibis](https://ibis-project.org)** – Portable Python dataframe library with a unified API across 20+ backends including DuckDB, Polars, BigQuery, Snowflake, and Spark. Write transformation logic once and run it on any supported engine. [Docs](https://ibis-project.org/docs/) | SDK: Python (pip install ibis-framework)
 - **[SQLMesh](https://github.com/SQLMesh/sqlmesh)** – SQL-first data transformation framework backward-compatible with dbt. Adds virtual dev environments, column-level lineage, and automatic incremental backfills. [Docs](https://sqlmesh.readthedocs.io/en/stable/) | SDK: Python (pip install sqlmesh)
 
 ## Streaming and Ingest
@@ -123,6 +125,7 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[CVAT](https://www.cvat.ai)** – Computer vision annotation tool with strong video and 3D support. Originally from Intel. [Docs](https://docs.cvat.ai)
 - **[Doccano](https://doccano.github.io/doccano/)** – Open-source text annotation tool for NER, text classification, and sequence-to-sequence tasks.
 - **[Argilla](https://argilla.io)** – Collaboration platform for AI engineers and domain experts. Part of HuggingFace since 2024. Focused on LLM data curation. [Docs](https://docs.argilla.io) | SDK: Python (pip install argilla)
+- **[FiftyOne](https://voxel51.com/fiftyone)** – Open-source dataset curation and visualization platform. Browse, filter, and curate labeled image, video, and 3D datasets; detect duplicates and label errors; run AI-assisted annotation and model evaluation. [Docs](https://docs.voxel51.com) | SDK: Python (pip install fiftyone)
 - **[LabelU](https://opendatalab.github.io/labelU/)** – Multimodal annotation toolbox supporting 2D bounding boxes, segmentation, keypoints, polylines, and AI-assisted labeling for image, audio, and video data. SDK: Python (pip install labelu)
 - **[X-AnyLabeling](https://github.com/CVHub520/X-AnyLabeling)** – AI-assisted annotation tool integrating SAM, YOLO, and other vision models. Supports bounding boxes, polygons, segmentation, keypoints, and video annotation with GPU/TensorRT acceleration. [Docs](https://github.com/CVHub520/X-AnyLabeling/blob/main/docs/en/get_started.md)
 
@@ -137,6 +140,8 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[Apache Hudi](https://hudi.apache.org)** – Lakehouse format with incremental processing, record-level indexing, and streaming ingestion. [Docs](https://hudi.apache.org/docs/overview/)
 - **[Apache Parquet](https://parquet.apache.org)** – Columnar storage format optimized for analytics and ML workloads. De-facto standard for feature tables on object storage. [Docs](https://parquet.apache.org/docs/)
 - **[Apache Polaris](https://polaris.apache.org)** – Open-source REST catalog for Apache Iceberg implementing the Iceberg REST API spec. Enables multi-engine interoperability across Spark, Flink, Trino, and Doris with fine-grained access control. [Docs](https://polaris.apache.org/in-dev/unreleased/)
+- **[Lance](https://github.com/lance-format/lance)** – Open lakehouse columnar format for multimodal AI data (images, video, audio, embeddings). 100x faster random access than Parquet, native vector index, and data versioning. Compatible with pandas, Polars, DuckDB, and PyTorch. [Docs](https://docs.lancedb.com/lance) | SDK: Python (pip install pylance), Rust
+- **[Unity Catalog](https://unitycatalog.io)** – Open-source universal catalog for data and AI assets. Governs tables, files, functions, and ML models across Delta Lake, Iceberg, Hudi, and Parquet with fine-grained access control and multi-engine support. [Docs](https://docs.unitycatalog.io)
 
 ## Templates and Example Projects
 

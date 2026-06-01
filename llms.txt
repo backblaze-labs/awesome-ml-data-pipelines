@@ -73,6 +73,8 @@
   - docs: https://pydeequ.readthedocs.io/
 - [Soda Core](https://www.soda.io): Data-contract verification engine. Defines quality checks in YAML, validates schema and data values against contracts, and integrates with Airflow, dbt, and Spark pipelines.
   - docs: https://docs.soda.io/soda-core/overview-main.html
+- [Splink](https://moj-analytical-services.github.io/splink/): Probabilistic record linkage and entity resolution library. Deduplicates and links datasets without unique identifiers using unsupervised learning; runs on DuckDB, Spark, and AWS Athena backends.
+  - docs: https://moj-analytical-services.github.io/splink/
 - [TensorFlow Data Validation](https://www.tensorflow.org/tfx/guide/tfdv): Library for computing data statistics, inferring schemas, and detecting anomalies in training and serving data for TFX ML pipelines.
   - docs: https://www.tensorflow.org/tfx/data_validation/get_started
 
@@ -103,6 +105,8 @@
   - docs: https://beam.apache.org/documentation/
 - [Apache DataFusion](https://datafusion.apache.org): Extensible query engine written in Rust using Apache Arrow in-memory format. Embeddable, multi-threaded, vectorized execution with SQL and DataFrame APIs; Python bindings via datafusion-python.
   - docs: https://datafusion.apache.org/user-guide/introduction.html
+- [Ibis](https://ibis-project.org): Portable Python dataframe library with a unified API across 20+ backends including DuckDB, Polars, BigQuery, Snowflake, and Spark. Write transformation logic once and run it on any supported engine.
+  - docs: https://ibis-project.org/docs/
 - [SQLMesh](https://github.com/SQLMesh/sqlmesh): SQL-first data transformation framework backward-compatible with dbt. Adds virtual dev environments, column-level lineage, and automatic incremental backfills.
   - docs: https://sqlmesh.readthedocs.io/en/stable/
 
@@ -144,6 +148,8 @@
 - [Doccano](https://doccano.github.io/doccano/): Open-source text annotation tool for NER, text classification, and sequence-to-sequence tasks.
 - [Argilla](https://argilla.io): Collaboration platform for AI engineers and domain experts. Part of HuggingFace since 2024. Focused on LLM data curation.
   - docs: https://docs.argilla.io
+- [FiftyOne](https://voxel51.com/fiftyone): Open-source dataset curation and visualization platform. Browse, filter, and curate labeled image, video, and 3D datasets; detect duplicates and label errors; run AI-assisted annotation and model evaluation.
+  - docs: https://docs.voxel51.com
 - [LabelU](https://opendatalab.github.io/labelU/): Multimodal annotation toolbox supporting 2D bounding boxes, segmentation, keypoints, polylines, and AI-assisted labeling for image, audio, and video data.
 - [X-AnyLabeling](https://github.com/CVHub520/X-AnyLabeling): AI-assisted annotation tool integrating SAM, YOLO, and other vision models. Supports bounding boxes, polygons, segmentation, keypoints, and video annotation with GPU/TensorRT acceleration.
   - docs: https://github.com/CVHub520/X-AnyLabeling/blob/main/docs/en/get_started.md
@@ -164,6 +170,10 @@
   - docs: https://parquet.apache.org/docs/
 - [Apache Polaris](https://polaris.apache.org): Open-source REST catalog for Apache Iceberg implementing the Iceberg REST API spec. Enables multi-engine interoperability across Spark, Flink, Trino, and Doris with fine-grained access control.
   - docs: https://polaris.apache.org/in-dev/unreleased/
+- [Lance](https://github.com/lance-format/lance): Open lakehouse columnar format for multimodal AI data (images, video, audio, embeddings). 100x faster random access than Parquet, native vector index, and data versioning. Compatible with pandas, Polars, DuckDB, and PyTorch.
+  - docs: https://docs.lancedb.com/lance
+- [Unity Catalog](https://unitycatalog.io): Open-source universal catalog for data and AI assets. Governs tables, files, functions, and ML models across Delta Lake, Iceberg, Hudi, and Parquet with fine-grained access control and multi-engine support.
+  - docs: https://docs.unitycatalog.io
 
 ## Templates and Example Projects
 

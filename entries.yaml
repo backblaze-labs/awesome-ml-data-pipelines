@@ -318,6 +318,18 @@
   b2_integration: ""
   last_verified: 2026-04-18
 
+- name: Splink
+  url: https://moj-analytical-services.github.io/splink/
+  docs_url: https://moj-analytical-services.github.io/splink/
+  description: Probabilistic record linkage and entity resolution library. Deduplicates and links datasets without unique identifiers using unsupervised learning; runs on DuckDB, Spark, and AWS Athena backends.
+  category: data-versioning-and-lineage
+  github: moj-analytical-services/splink
+  license: MIT
+  sdks:
+    - {language: Python (pip install splink)}
+  b2_integration: ""
+  last_verified: 2026-06-01
+
 - name: Marquez
   url: https://marquezproject.ai
   docs_url: https://marquezproject.ai/docs/
@@ -524,6 +536,18 @@
     - {language: Rust}
   b2_integration: ""
   last_verified: 2026-05-04
+
+- name: Ibis
+  url: https://ibis-project.org
+  docs_url: https://ibis-project.org/docs/
+  description: Portable Python dataframe library with a unified API across 20+ backends including DuckDB, Polars, BigQuery, Snowflake, and Spark. Write transformation logic once and run it on any supported engine.
+  category: data-processing-engines
+  github: ibis-project/ibis
+  license: Apache-2.0
+  sdks:
+    - {language: Python (pip install ibis-framework)}
+  b2_integration: ""
+  last_verified: 2026-06-01
 
 # ---------------- Streaming and Ingest ----------------
 
@@ -734,6 +758,18 @@
   b2_integration: ""
   last_verified: 2026-05-04
 
+- name: FiftyOne
+  url: https://voxel51.com/fiftyone
+  docs_url: https://docs.voxel51.com
+  description: Open-source dataset curation and visualization platform. Browse, filter, and curate labeled image, video, and 3D datasets; detect duplicates and label errors; run AI-assisted annotation and model evaluation.
+  category: data-labeling
+  github: voxel51/fiftyone
+  license: Apache-2.0
+  sdks:
+    - {language: Python (pip install fiftyone)}
+  b2_integration: ""
+  last_verified: 2026-06-01
+
 # ---------------- Storage Formats and Lakehouses ----------------
 
 - name: Apache Parquet
@@ -805,6 +841,29 @@
   license: Apache-2.0
   b2_integration: ""
   last_verified: 2026-05-04
+
+- name: Lance
+  url: https://github.com/lance-format/lance
+  docs_url: https://docs.lancedb.com/lance
+  description: Open lakehouse columnar format for multimodal AI data (images, video, audio, embeddings). 100x faster random access than Parquet, native vector index, and data versioning. Compatible with pandas, Polars, DuckDB, and PyTorch.
+  category: storage-formats-and-lakehouses
+  github: lance-format/lance
+  license: Apache-2.0
+  sdks:
+    - {language: Python (pip install pylance)}
+    - {language: Rust}
+  b2_integration: ""
+  last_verified: 2026-06-01
+
+- name: Unity Catalog
+  url: https://unitycatalog.io
+  docs_url: https://docs.unitycatalog.io
+  description: Open-source universal catalog for data and AI assets. Governs tables, files, functions, and ML models across Delta Lake, Iceberg, Hudi, and Parquet with fine-grained access control and multi-engine support.
+  category: storage-formats-and-lakehouses
+  github: unitycatalog/unitycatalog
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-06-01
 
 # ---------------- Templates and Example Projects ----------------
 
