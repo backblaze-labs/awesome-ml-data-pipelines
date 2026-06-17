@@ -1,5 +1,7 @@
 # Awesome ML Data Pipelines [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com) [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
+![Abstract illustration of ML data pipeline systems](assets/readme-hero.png)
+
 A curated list of open-source frameworks, engines, and platforms for building production ML data pipelines — orchestration, processing, versioning, feature storage, and everything in between.
 
 Maintained by [Backblaze](https://www.backblaze.com).
