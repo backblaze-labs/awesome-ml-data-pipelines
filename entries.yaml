@@ -874,3 +874,15 @@
   github: visenger/awesome-mlops
   b2_integration: ""
   last_verified: 2026-04-17
+
+- name: GNN Fraud Ring Detection
+  url: https://github.com/RishabhPande/GNN-fraud-ring-detection
+  docs_url: https://github.com/RishabhPande/GNN-fraud-ring-detection
+  description: Synthetic graph-fraud teaching example with stdlib message passing, graph generation, model training and regression tests.
+  category: templates-and-example-projects
+  github: RishabhPande/GNN-fraud-ring-detection
+  license: MIT
+  sdks:
+    - language: Python
+  b2_integration: ""
+  last_verified: 2026-11-08
