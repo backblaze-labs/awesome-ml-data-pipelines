@@ -13,7 +13,7 @@
   github: apache/airflow
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install apache-airflow)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-17
 
@@ -25,7 +25,7 @@
   github: PrefectHQ/prefect
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install prefect)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-17
 
@@ -37,7 +37,7 @@
   github: dagster-io/dagster
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install dagster)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-17
 
@@ -49,7 +49,7 @@
   github: flyteorg/flyte
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install flytekit)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-17
 
@@ -71,7 +71,7 @@
   github: kedro-org/kedro
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install kedro)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-17
 
@@ -83,7 +83,7 @@
   github: mage-ai/mage-ai
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install mage-ai)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-18
 
@@ -116,7 +116,7 @@
   github: zenml-io/zenml
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install zenml)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-17
 
@@ -128,7 +128,7 @@
   github: Netflix/metaflow
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install metaflow)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-17
 
@@ -150,7 +150,7 @@
   github: mlflow/mlflow
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install mlflow)}
+    - {language: Python}
     - {language: Java}
     - {language: R}
   b2_integration: ""
@@ -164,7 +164,7 @@
   github: apache/hamilton
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install sf-hamilton)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-18
 
@@ -176,7 +176,7 @@
   github: mlrun/mlrun
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install mlrun)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-21
 
@@ -190,7 +190,7 @@
   github: iterative/dvc
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install dvc)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-17
 
@@ -232,7 +232,7 @@
   github: great-expectations/great_expectations
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install great-expectations)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-18
 
@@ -244,7 +244,7 @@
   github: evidentlyai/evidently
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install evidently)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-18
 
@@ -266,7 +266,7 @@
   github: Oxen-AI/Oxen
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install oxenai)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-18
 
@@ -278,7 +278,7 @@
   github: awslabs/python-deequ
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install pydeequ)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-18
 
@@ -290,7 +290,7 @@
   github: tensorflow/data-validation
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install tensorflow-data-validation)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-18
 
@@ -302,7 +302,7 @@
   github: unionai-oss/pandera
   license: MIT
   sdks:
-    - {language: Python (pip install pandera)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-18
 
@@ -314,7 +314,7 @@
   github: cleanlab/cleanlab
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install cleanlab)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-18
 
@@ -326,7 +326,7 @@
   github: moj-analytical-services/splink
   license: MIT
   sdks:
-    - {language: Python (pip install splink)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-06-01
 
@@ -348,7 +348,7 @@
   github: elementary-data/elementary
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install elementary-data)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-21
 
@@ -360,7 +360,7 @@
   github: sodadata/soda-core
   license: Elastic-2.0
   sdks:
-    - {language: Python (pip install soda-core)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-21
 
@@ -372,7 +372,7 @@
   github: NannyML/nannyml
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install nannyml)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-21
 
@@ -394,7 +394,7 @@
   github: datachain-ai/datachain
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install datachain)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-05-04
 
@@ -408,7 +408,7 @@
   github: feast-dev/feast
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install feast)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-17
 
@@ -420,7 +420,7 @@
   github: featureform/featureform
   license: MPL-2.0
   sdks:
-    - {language: Python (pip install featureform)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-21
 
@@ -461,7 +461,7 @@
   github: ray-project/ray
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install ray)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-17
 
@@ -473,7 +473,7 @@
   github: dask/dask
   license: BSD-3-Clause
   sdks:
-    - {language: Python (pip install dask)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-17
 
@@ -495,7 +495,7 @@
   github: dbt-labs/dbt-core
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install dbt-core)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-17
 
@@ -507,7 +507,7 @@
   github: pola-rs/polars
   license: MIT
   sdks:
-    - {language: Python (pip install polars)}
+    - {language: Python}
     - {language: Rust}
   b2_integration: ""
   last_verified: 2026-04-17
@@ -520,7 +520,7 @@
   github: SQLMesh/sqlmesh
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install sqlmesh)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-21
 
@@ -532,7 +532,7 @@
   github: apache/datafusion
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install datafusion)}
+    - {language: Python}
     - {language: Rust}
   b2_integration: ""
   last_verified: 2026-05-04
@@ -545,7 +545,7 @@
   github: ibis-project/ibis
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install ibis-framework)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-06-01
 
@@ -608,7 +608,7 @@
   github: airbytehq/airbyte
   license: MIT
   sdks:
-    - {language: Python (pip install airbyte)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-18
 
@@ -630,7 +630,7 @@
   github: quixio/quix-streams
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install quixstreams)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-18
 
@@ -642,7 +642,7 @@
   github: dlt-hub/dlt
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install dlt)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-18
 
@@ -654,7 +654,7 @@
   github: meltano/meltano
   license: MIT
   sdks:
-    - {language: Python (pip install meltano)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-18
 
@@ -666,7 +666,7 @@
   github: pathwaycom/pathway
   license: BSL-1.1
   sdks:
-    - {language: Python (pip install pathway)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-21
 
@@ -688,7 +688,7 @@
   github: online-ml/river
   license: BSD-3-Clause
   sdks:
-    - {language: Python (pip install river)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-05-04
 
@@ -702,7 +702,7 @@
   github: HumanSignal/label-studio
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install label-studio-sdk)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-17
 
@@ -714,7 +714,7 @@
   github: argilla-io/argilla
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install argilla)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-17
 
@@ -744,7 +744,7 @@
   github: opendatalab/labelU
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install labelu)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-18
 
@@ -766,7 +766,7 @@
   github: voxel51/fiftyone
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install fiftyone)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-06-01
 
@@ -850,7 +850,7 @@
   github: lance-format/lance
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install pylance)}
+    - {language: Python}
     - {language: Rust}
   b2_integration: ""
   last_verified: 2026-06-01
